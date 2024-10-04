@@ -2,10 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 .landing {
   height: 100vh;
-  background: linear-gradient(170deg, #d7d7d7 55%, #141414 55%);
-  background: -webkit-linear-gradient(170deg, #d7d7d7 55%, #141414 55%);
+  background: linear-gradient(170deg, #d7d7d7 35%, #141414 35%);
+  background: -webkit-linear-gradient(170deg, #d7d7d7 35%, #141414 35%);
 }
 
 @layer base {
