@@ -8,8 +8,8 @@ html {
 
 .landing {
   height: 100vh;
-  background: linear-gradient(170deg, #d7d7d7 35%, #141414 35%);
-  background: -webkit-linear-gradient(170deg, #d7d7d7 35%, #141414 35%);
+  background: linear-gradient(170deg, #d7d7d7 50%, #141414 50%);
+  background: -webkit-linear-gradient(170deg, #d7d7d7 50%, #141414 50%);
 }
 
 @layer base {
