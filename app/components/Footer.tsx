@@ -2,9 +2,14 @@ import * as React from "react";
 import Link from "next/link";
 import { cva } from "class-variance-authority";
 
+import Twitter from "../assets/Twitter.svg";
+import LinkedIn from "../assets/LinkedIn.svg";
+import GitHubIcon from "../assets/GitHubSocialIcon.svg";
+import Image from "next/image";
+
 // Custom styles for the footer links
 const footerLinkStyle = cva(
-  "text-[#D7D7D7] text-md font-medium transition-colors hover:text-black"
+  "text-[#D7D7D7] text-md font-medium transition-colors hover:text-[#FDDA0D]"
 );
 
 const Footer = () => {
@@ -52,7 +57,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className={footerLinkStyle()}
           >
-            Twitter
+            <Image src={Twitter} alt="Twitter" />
           </a>
           <a
             href="https://github.com"
@@ -60,7 +65,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className={footerLinkStyle()}
           >
-            GitHub
+            <Image src={LinkedIn} alt="Twitter" />
           </a>
           <a
             href="https://linkedin.com"
@@ -68,7 +73,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className={footerLinkStyle()}
           >
-            LinkedIn
+            <Image src={GitHubIcon} alt="Twitter" />
           </a>
         </div>
       </div>

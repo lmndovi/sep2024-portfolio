@@ -76,3 +76,7 @@ html {
     @apply bg-background text-foreground;
   }
 }
+
+.contactInput {
+  @apply outline-none bg-zinc-900 rounded-sm border-b px-1 md:px-[58px] py-5 border-[#242424] text-gray-400 placeholder-white transition-all focus:border-[#FDDA0D]/40 focus:text-[#FDDA0D]/90 hover:border-[#FDDA0D]/40;
+}
