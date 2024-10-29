@@ -26,7 +26,9 @@ const designSkills = [
 ];
 
 const languageSkills = [
+  { name: "HTML5", icon: HTML5 },
   { name: "JavaScript", icon: Javascript },
+  { name: "PHP", icon: PHP },
   { name: "Python", icon: Python },
   { name: "TypeScript", icon: TypeScript },
 ];
@@ -34,10 +36,8 @@ const languageSkills = [
 const additionalSkills = [
   { name: "Git", icon: Git },
   { name: "GitHub", icon: GitHub },
-  { name: "HTML5", icon: HTML5 },
   { name: "Next.js", icon: Nextjs },
   { name: "NPM", icon: NPM },
-  { name: "PHP", icon: PHP },
   { name: "React", icon: ReactIcon },
   { name: "Sanity", icon: Sanity },
   { name: "ShadCN", icon: ShadCN },
