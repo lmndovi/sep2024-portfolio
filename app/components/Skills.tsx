@@ -20,14 +20,20 @@ import TailwindCSS from "../assets/TailwindCSS.svg";
 import TypeScript from "../assets/TypeScript.svg";
 import Wordpress from "@/app/assets/Wordpress.svg";
 
+// Define Skill type
+interface Skill {
+  name: string;
+  icon: string;
+}
+
 // Organize skills into categories
-const designSkills = [
+const designSkills: Skill[] = [
   { name: "CSS3", icon: CSS3 },
   { name: "Figma", icon: Figma },
   { name: "Tailwind CSS", icon: TailwindCSS },
 ];
 
-const languageSkills = [
+const languageSkills: Skill[] = [
   { name: "HTML5", icon: HTML5 },
   { name: "JavaScript", icon: Javascript },
   { name: "PHP", icon: PHP },
@@ -35,7 +41,7 @@ const languageSkills = [
   { name: "TypeScript", icon: TypeScript },
 ];
 
-const additionalSkills = [
+const additionalSkills: Skill[] = [
   { name: "Git", icon: Git },
   { name: "GitHub", icon: GitHub },
   { name: "Next.js", icon: Nextjs },
@@ -48,22 +54,24 @@ const additionalSkills = [
 ];
 
 const Skills = () => {
-  const renderSkills = (skills, category) => (
+  const renderSkills = (skills: Skill[], category: string) => (
     <div className="my-4">
       <h2 className="text-xl font-semibold mb-4 uppercase tracking-widest">
         {category}:
       </h2>
       <div className="flex flex-wrap justify-center items-center gap-6">
-        {skills.map((skill) => (
+        {skills.map((skill: Skill) => (
           <div key={skill.name} className="flex flex-col items-center p-2">
             <Image
               src={skill.icon}
               alt={`${skill.name} icon`}
               width={64}
               height={64}
-              className="object-contain"
+              className="object-contain mb-2"
             />
-            <p className="text-sm mt-2 tracking-widest">{skill.name}</p>
+            <p className="text-sm mt-2 tracking-widest uppercase">
+              {skill.name}
+            </p>
           </div>
         ))}
       </div>
