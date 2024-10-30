@@ -51,14 +51,14 @@ const Footer = () => {
           </ul>
         </nav>
         <div className="flex space-x-4">
-          <a
+          {/* <a
             href="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
             className={footerLinkStyle()}
           >
             <Image src={Twitter} alt="Twitter" />
-          </a>
+          </a> */}
           <a
             href="https://github.com"
             target="_blank"

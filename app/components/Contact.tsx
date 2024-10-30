@@ -83,7 +83,7 @@ const Contact = () => {
           <p>We Will Get Back To You Shortly</p>
         </div>
       )}
-      <p className="text-center pb-10">
+      <p className="text-3xl font-light tracking-wide text-center pb-10">
         Turning your ideas into digital solutions. <br />
         Let&apos;s talk!
       </p>

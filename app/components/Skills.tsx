@@ -15,8 +15,10 @@ import Python from "../assets/Python.svg";
 import ReactIcon from "../assets/React.svg"; // Renaming to avoid conflict with React
 import Sanity from "../assets/Sanity.svg";
 import ShadCN from "../assets/ShadCN.svg";
+import Shopify from "@/app/assets/Shopify.svg";
 import TailwindCSS from "../assets/TailwindCSS.svg";
 import TypeScript from "../assets/TypeScript.svg";
+import Wordpress from "@/app/assets/Wordpress.svg";
 
 // Organize skills into categories
 const designSkills = [
@@ -41,12 +43,16 @@ const additionalSkills = [
   { name: "React", icon: ReactIcon },
   { name: "Sanity", icon: Sanity },
   { name: "ShadCN", icon: ShadCN },
+  { name: "Shopify", icon: Shopify },
+  { name: "Wordpress", icon: Wordpress },
 ];
 
 const Skills = () => {
   const renderSkills = (skills, category) => (
-    <div className="my-8">
-      <h2 className="text-xl font-semibold mb-4 text-center">{category}</h2>
+    <div className="my-4">
+      <h2 className="text-xl font-semibold mb-4 uppercase tracking-widest">
+        {category}:
+      </h2>
       <div className="flex flex-wrap justify-center items-center gap-6">
         {skills.map((skill) => (
           <div key={skill.name} className="flex flex-col items-center p-2">
@@ -66,10 +72,10 @@ const Skills = () => {
 
   return (
     <div className="flex flex-col items-center w-full h-screen space-y-5 mb-48">
-      <h1 className="text-2xl font-semibold tracking-[5px] text-center my-16 border-8 border-black w-48 mx-auto uppercase px-6 py-3">
+      <h1 className="text-2xl font-semibold tracking-[5px] text-center mt-16 border-8 border-black w-48 mx-auto uppercase px-6 py-3">
         Skills
       </h1>
-      <div className="w-[570px]">
+      <div className="flex flex-col items-start">
         {renderSkills(designSkills, "Design")}
         {renderSkills(languageSkills, "Languages")}
         {renderSkills(additionalSkills, "Miscellaneous")}
