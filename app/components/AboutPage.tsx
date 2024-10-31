@@ -7,8 +7,8 @@ const AboutPage = () => {
         About
       </h1>
       <div className="flex items-center justify-center">
-        <main className="grid grid-cols-1 md:grid-cols-3 gap-10 w-full px-12">
-          <div className="my-4 md:pt-60">
+        <main className="grid grid-cols-1 md:grid-cols-3 gap-10 w-full px-16">
+          <div className="my-4 md:pt-52">
             <h2 className="text-center text-2xl font-semibold mb-4 uppercase tracking-widest">
               Development
             </h2>
@@ -34,7 +34,7 @@ const AboutPage = () => {
             </p>
           </div>
 
-          <div className="my-4 md:pt-60">
+          <div className="my-4 md:pt-52">
             <h2 className=" text-center text-2xl font-semibold mb-4 uppercase tracking-widest">
               Design
             </h2>
