@@ -65,9 +65,9 @@ const Skills = () => {
             <Image
               src={skill.icon}
               alt={`${skill.name} icon`}
-              width={64}
-              height={64}
-              className="object-contain mb-2"
+              // width={64}
+              // height={64}
+              className="object-contain mb-2 w-10 md:w-24"
             />
             <p className="text-sm mt-2 tracking-widest uppercase">
               {skill.name}

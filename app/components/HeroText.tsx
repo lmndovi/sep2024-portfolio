@@ -27,7 +27,7 @@ const HeroText = () => {
     <div
       className={`${roboto.className} flex h-full items-center justify-center`}
     >
-      <h1 className="text-center max-w-[440px] text-7xl mr-12 font-bold">
+      <h1 className="text-center max-w-[220px] md:max-w-[440px] text-4xl md:text-7xl mr-12 font-bold ">
         <span>{text}</span>
         <Cursor cursorColor="yellow" />
       </h1>

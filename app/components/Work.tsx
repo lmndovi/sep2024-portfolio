@@ -15,34 +15,42 @@ const Work = () => {
           <h2 className="text-center font-semibold text-2xl uppercase tracking-widest underline underline-offset-2 decoration-4">
             GG's Authentic Site
           </h2>
-          <p className="text-sm tracking-wide px-10">
-            GG's Authentic Site is a responsive e-commerce website designed for
-            a seamless shopping experience. It includes interactive features
-            such as:
+          <p className="text-sm tracking-wide md:px-10">
+            An e-commerce website designed for a seamless shopping experience.
+            <br />
+            <br />
+            It includes interactive features such as:
           </p>
-          <ul className="text-sm tracking-wide px-12 list-disc list-inside space-y-1">
+          <ul className="text-sm tracking-wide md:px-12 list-disc list-inside space-y-1">
             <li>
-              <strong>Product Options</strong>: Variant selectors, quantity
-              controls, and image carousels
+              <strong>Product Options</strong>
+              <span className="hidden md:block">
+                : Variant selectors, quantity controls, and image carousels
+              </span>
             </li>
             <li>
-              <strong>Expandable Details</strong>: "Read more" descriptions and
-              hidden delivery info
+              <strong>Expandable Details</strong>
+              <span className="hidden md:block">
+                : "Read more" descriptions and hidden delivery info
+              </span>
             </li>
             <li>
-              <strong>Related Products</strong>: Algorithm-based recommendations
+              <strong>Related Products</strong>
+              <span className="hidden md:block">
+                : Algorithm-based recommendations
+              </span>
             </li>
           </ul>
-          <p className="text-sm tracking-wide px-10 mt-4">
-            Users navigate easily via custom dropdowns, a hover-activated menu,
-            and a mobile-friendly hamburger menu. Advanced search, filter
-            options, and secure payment ensure smooth transactions.
+          <p className="text-sm tracking-wide md:px-10 mt-4">
+            Custom dropdowns, a hover-activated menu, and a mobile-friendly
+            hamburger menu enable easy navigation, while advanced search,
+            filters, and secure payment ensure smooth transactions.
           </p>
-          <p className="text-sm tracking-wide px-10 mt-4">
-            Marketing integrations like JudgeMe and Shopify Email, along with an
-            opt-in form offering discounts, boost user engagement. Custom
-            visuals and initial review data enhance the platform’s appeal,
-            creating a user-centered shopping experience.
+          <p className="text-sm tracking-wide md:px-10 mt-4">
+            Marketing integrations like JudgeMe and Shopify Email, plus a
+            discount opt-in form, boost engagement. Custom visuals and initial
+            review data enhance the platform, creating a user-focused shopping
+            experience.
           </p>
           <div className="flex flex-col items-center justify-center py-3">
             <a href="https://ggsauthentic.com/">

@@ -17,13 +17,16 @@ export default function Home() {
           <Hero />
         </main>
       </div>
-      <section className="h-screen flex-1 my-3" id="about">
+      <section className="h-screen flex-1 mt-3 mb-[340px] md:my-3 " id="about">
         <AboutPage />
       </section>
-      <section className="h-screen flex-1 my-3" id="skills">
+      <section
+        className="h-screen flex-1 mt-3 mb-[240px] md:my-3 px-10 md:px-0  "
+        id="skills"
+      >
         <Skills />
       </section>
-      <section className="h-screen flex-1 my-3" id="work">
+      <section className="h-screen flex-1 mt-3 mb-[500px] md:my-3" id="work">
         <Work />
       </section>
       <section className="h-screen flex-1 my-3" id="contact">

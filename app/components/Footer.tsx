@@ -15,14 +15,14 @@ const footerLinkStyle = cva(
 const Footer = () => {
   return (
     <footer className="bg-black px-5 py-10 mt-10">
-      <div className="flex justify-between items-center max-w-6xl mx-auto">
+      <div className="flex flex-col md:flex-row space-y-5 justify-between items-center max-w-6xl mx-auto">
         <div>
           <p className="text-lg text-[#D7D7D7]">
             © 2024 Lu Ndovi. All Rights Reserved.
           </p>
         </div>
         <nav>
-          <ul className="flex space-x-4">
+          <ul className="flex flex-col md:flex-row items-center justify-center md:space-x-4 md:space-y-0 space-y-2">
             <li>
               <Link href="/" className={footerLinkStyle()}>
                 Home
@@ -51,14 +51,6 @@ const Footer = () => {
           </ul>
         </nav>
         <div className="flex space-x-4">
-          {/* <a
-            href="https://twitter.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={footerLinkStyle()}
-          >
-            <Image src={Twitter} alt="Twitter" />
-          </a> */}
           <a
             href="https://github.com"
             target="_blank"

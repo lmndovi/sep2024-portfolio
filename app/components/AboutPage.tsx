@@ -13,11 +13,9 @@ const AboutPage = () => {
               Development
             </h2>
             <p className="text-md tracking-wide">
-              As a developer, I build websites from the ground up, catering to
-              each client’s specific goals. From transforming Figma designs into
-              interactive interfaces to creating bespoke Shopify themes, I
-              ensure every aspect of a site aligns with the client’s unique
-              needs and vision.
+              I develop custom websites tailored to each client's goals, turning
+              Figma designs into interactive interfaces and creating bespoke
+              themes to match their vision.
             </p>
           </div>
 
@@ -26,11 +24,10 @@ const AboutPage = () => {
               Story
             </h2>
             <p className="text-md tracking-wide">
-              During the pandemic, I discovered a passion for coding that
-              inspired a career shift. Driven by curiosity and creativity, I
-              immersed myself in programming languages like Python, JavaScript,
-              TypeScript, and Shopify Liquid, turning this new-found passion
-              into a professional journey.
+              During the pandemic, I discovered a passion for coding that led to
+              a career shift. I delved into Python, JavaScript, TypeScript, and
+              Shopify Liquid, transforming my curiosity into a professional
+              path.
             </p>
           </div>
 
@@ -39,11 +36,9 @@ const AboutPage = () => {
               Design
             </h2>
             <p className="text-md tracking-wide">
-              I work with clients to design websites that represent their brand
-              and ethos effectively. Combining aesthetic choices with
-              functionality, I help create digital spaces that enhance their
-              image and user experience, ensuring the website aligns seamlessly
-              with their goals and values.
+              I design websites that reflect clients' brands, blending
+              aesthetics with functionality to enhance their image and user
+              experience, aligning with their goals and values.
             </p>
           </div>
         </main>
