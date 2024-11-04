@@ -25,19 +25,19 @@ const Work = () => {
             <li>
               <strong>Product Options</strong>
               <span className="hidden md:block">
-                : Variant selectors, quantity controls, and image carousels
+                Variant selectors, quantity controls, and image carousels
               </span>
             </li>
             <li>
               <strong>Expandable Details</strong>
               <span className="hidden md:block">
-                : &#34;Read more&#34; descriptions and hidden delivery info
+                &#34;Read more&#34; descriptions and hidden delivery info
               </span>
             </li>
             <li>
               <strong>Related Products</strong>
               <span className="hidden md:block">
-                : Algorithm-based recommendations
+                Algorithm-based recommendations
               </span>
             </li>
           </ul>

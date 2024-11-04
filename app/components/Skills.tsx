@@ -67,7 +67,7 @@ const Skills = () => {
               alt={`${skill.name} icon`}
               // width={64}
               // height={64}
-              className="object-contain mb-2 w-10 md:w-24"
+              className="object-contain mb-2 w-10 md:w-20"
             />
             <p className="text-sm mt-2 tracking-widest uppercase">
               {skill.name}
@@ -86,7 +86,7 @@ const Skills = () => {
       <div className="flex flex-col items-start">
         {renderSkills(designSkills, "Design")}
         {renderSkills(languageSkills, "Languages")}
-        {renderSkills(additionalSkills, "Miscellaneous")}
+        {renderSkills(additionalSkills, "Tools")}
       </div>
     </div>
   );
