@@ -7,7 +7,7 @@ const AboutPage = () => {
         About
       </h1>
       <div className="flex items-center justify-center">
-        <main className="grid grid-cols-1 md:grid-cols-3 gap-10 w-full px-16">
+        <main className="grid grid-cols-1 md:grid-cols-3 gap-10 w-full px-16 md:max-w-[1300px]">
           <div className="my-4 md:pt-52">
             <h2 className="text-center text-2xl font-semibold mb-4 uppercase tracking-widest">
               Development
@@ -21,7 +21,7 @@ const AboutPage = () => {
 
           <div className="my-4">
             <h2 className="text-2xl text-center font-semibold mb-4 uppercase tracking-widest">
-              Story
+              My Story
             </h2>
             <p className="text-md tracking-wide">
               During the pandemic, I discovered a passion for coding that led to
