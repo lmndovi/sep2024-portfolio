@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 
 import ggsmockup from "../assets/GGSMockUp.png";
-import { Button } from "@/components/ui/button";
+import { Button } from "./ui/button";
 
 const Work = () => {
   return (
@@ -13,7 +13,7 @@ const Work = () => {
       <main className="grid grid-cols-1 md:grid-cols-2 gap-2 mx-auto px-20">
         <div className="space-y-6">
           <h2 className="text-center font-semibold text-2xl uppercase tracking-widest underline underline-offset-2 decoration-4">
-            GG's Authentic Site
+            GG&#39;s Authentic Site
           </h2>
           <p className="text-sm tracking-wide md:px-10">
             An e-commerce website designed for a seamless shopping experience.
@@ -31,7 +31,7 @@ const Work = () => {
             <li>
               <strong>Expandable Details</strong>
               <span className="hidden md:block">
-                : "Read more" descriptions and hidden delivery info
+                : &#34;Read more&#34; descriptions and hidden delivery info
               </span>
             </li>
             <li>

@@ -13,9 +13,9 @@ const AboutPage = () => {
               Development
             </h2>
             <p className="text-md tracking-wide">
-              I develop custom websites tailored to each client's goals, turning
-              Figma designs into interactive interfaces and creating bespoke
-              themes to match their vision.
+              I develop custom websites tailored to each client&#39;s goals,
+              turning Figma designs into interactive interfaces and creating
+              bespoke themes to match their vision.
             </p>
           </div>
 
@@ -36,7 +36,7 @@ const AboutPage = () => {
               Design
             </h2>
             <p className="text-md tracking-wide">
-              I design websites that reflect clients' brands, blending
+              I design websites that reflect clients&#39; brands, blending
               aesthetics with functionality to enhance their image and user
               experience, aligning with their goals and values.
             </p>

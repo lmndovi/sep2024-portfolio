@@ -53,7 +53,7 @@ const Contact = () => {
       setTimeout(() => {
         router.push("/");
       }, 6000);
-    } catch (error) {
+    } catch {
       setShowPopup(true);
       setTimeout(() => {
         router.push("/");

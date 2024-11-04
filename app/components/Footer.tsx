@@ -2,7 +2,6 @@ import * as React from "react";
 import Link from "next/link";
 import { cva } from "class-variance-authority";
 
-import Twitter from "../assets/Twitter.svg";
 import LinkedIn from "../assets/LinkedIn.svg";
 import GitHubIcon from "../assets/GitHubSocialIcon.svg";
 import Image from "next/image";
@@ -51,22 +50,22 @@ const Footer = () => {
           </ul>
         </nav>
         <div className="flex space-x-4">
-          <a
+          <Link
             href="https://github.com"
             target="_blank"
             rel="noopener noreferrer"
             className={footerLinkStyle()}
           >
-            <Image src={LinkedIn} alt="Twitter" />
-          </a>
-          <a
+            <Image src={GitHubIcon} alt="Twitter" />
+          </Link>
+          <Link
             href="https://linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
             className={footerLinkStyle()}
           >
-            <Image src={GitHubIcon} alt="Twitter" />
-          </a>
+            <Image src={LinkedIn} alt="Twitter" />
+          </Link>
         </div>
       </div>
     </footer>

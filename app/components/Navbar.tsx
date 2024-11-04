@@ -10,8 +10,6 @@ import {
 
 import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
 
-import { Bars3Icon } from "@heroicons/react/24/solid";
-
 import { cva } from "class-variance-authority";
 
 // Custom style for the "Contact" link
