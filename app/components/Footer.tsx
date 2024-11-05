@@ -51,7 +51,7 @@ const Footer = () => {
         </nav>
         <div className="flex space-x-4">
           <Link
-            href="https://github.com"
+            href="https://github.com/lmndovi"
             target="_blank"
             rel="noopener noreferrer"
             className={footerLinkStyle()}
@@ -59,7 +59,7 @@ const Footer = () => {
             <Image src={GitHubIcon} alt="Twitter" />
           </Link>
           <Link
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/lu-ndovi-713819208/?originalSubdomain=uk"
             target="_blank"
             rel="noopener noreferrer"
             className={footerLinkStyle()}
