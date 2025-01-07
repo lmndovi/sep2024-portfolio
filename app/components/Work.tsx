@@ -3,6 +3,7 @@ import React from "react";
 
 import ggsmockup from "../assets/GGSMockUp.png";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 const Work = () => {
   return (
@@ -19,26 +20,19 @@ const Work = () => {
             An e-commerce website designed for a seamless shopping experience.
             <br />
             <br />
-            It includes interactive features such as:
+            Interactive features include:
           </p>
           <ul className="text-sm tracking-wide md:px-12 list-disc list-inside space-y-1">
             <li>
-              <strong>Product Options</strong>
-              <span className="hidden md:block">
+              <strong>
                 Variant selectors, quantity controls, and image carousels
-              </span>
+              </strong>
             </li>
             <li>
               <strong>Expandable Details</strong>
-              <span className="hidden md:block">
-                &#34;Read more&#34; descriptions and hidden delivery info
-              </span>
             </li>
             <li>
-              <strong>Related Products</strong>
-              <span className="hidden md:block">
-                Algorithm-based recommendations
-              </span>
+              <strong>Algorithm-based recommendations</strong>
             </li>
           </ul>
           <p className="text-sm tracking-wide md:px-10 mt-4">
@@ -53,19 +47,27 @@ const Work = () => {
             experience.
           </p>
           <div className="flex flex-col items-center justify-center py-3">
-            <a href="https://ggsauthentic.com/">
+            <Link
+              href="https://ggsauthentic.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Button>View Website</Button>
-            </a>
+            </Link>
           </div>
         </div>
         <div>
-          <a href="https://ggsauthentic.com/">
+          <Link
+            href="https://ggsauthentic.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src={ggsmockup}
               alt="ggsauthentic.com"
-              className="h-full w-full"
+              className="h-full md:h-96 w-full md:w-screen"
             />
-          </a>
+          </Link>
         </div>
       </main>
     </div>

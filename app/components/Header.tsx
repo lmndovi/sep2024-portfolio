@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 const Header = () => {
   return (
     <div className="text-white py-5 px-5 md:px-20">
-      <nav className="flex justify-between items-center">
+      <nav className="flex justify-between items-center motion-preset-rebound-down motion-delay-[400ms]">
         <div>
           <Logo />
         </div>

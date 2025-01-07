@@ -55,19 +55,17 @@ const additionalSkills: Skill[] = [
 
 const Skills = () => {
   const renderSkills = (skills: Skill[], category: string) => (
-    <div className="my-4">
+    <div className="my-2 ">
       <h2 className="text-xl font-semibold mb-4 uppercase tracking-widest">
         {category}:
       </h2>
       <div className="flex flex-wrap justify-center items-center gap-6">
         {skills.map((skill: Skill) => (
-          <div key={skill.name} className="flex flex-col items-center p-2">
+          <div key={skill.name} className="flex flex-col items-center p-2 ">
             <Image
               src={skill.icon}
               alt={`${skill.name} icon`}
-              // width={64}
-              // height={64}
-              className="object-contain mb-2 w-10 md:w-20"
+              className="object-contain mb-2 w-10 md:w-16 hover:motion-preset-spin motion-duration-2000"
             />
             <p className="text-sm mt-2 tracking-widest uppercase">
               {skill.name}
@@ -79,14 +77,20 @@ const Skills = () => {
   );
 
   return (
-    <div className="flex flex-col items-center w-full h-screen space-y-5 mb-48">
-      <h1 className="text-2xl font-semibold tracking-[5px] text-center mt-16 border-8 border-black w-48 mx-auto uppercase px-6 py-3">
+    <div className="flex flex-col items-center w-full h-screen space-y-3 mb-48">
+      <h1 className="text-2xl font-semibold tracking-[5px] text-center mt-10 border-8 border-black w-48 mx-auto uppercase px-6 py-3">
         Skills
       </h1>
       <div className="flex flex-col items-start">
-        {renderSkills(designSkills, "Design")}
-        {renderSkills(languageSkills, "Languages")}
-        {renderSkills(additionalSkills, "Tools")}
+        <div className="motion-preset-rebound-left motion-delay-0">
+          {renderSkills(designSkills, "Design")}
+        </div>
+        <div className="motion-preset-rebound-left motion-delay-500">
+          {renderSkills(languageSkills, "Languages")}
+        </div>
+        <div className="motion-preset-rebound-left motion-delay-1000">
+          {renderSkills(additionalSkills, "Tools")}
+        </div>
       </div>
     </div>
   );

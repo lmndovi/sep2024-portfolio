@@ -6,7 +6,7 @@ const AboutPage = () => {
       <h1 className="text-2xl font-semibold tracking-[5px] text-center my-16 border-8 border-black w-48 mx-auto uppercase px-6 py-3">
         About
       </h1>
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center motion-scale-in-[0.5] motion-rotate-in-[45deg] motion-blur-in-[10px] motion-delay-[0.75s]/rotate motion-delay-[0.75s]/blur">
         <main className="grid grid-cols-1 md:grid-cols-3 gap-10 w-full px-16 md:max-w-[1400px]">
           <div className="my-4 md:pt-52">
             <h2 className="text-center text-2xl font-semibold mb-4 uppercase tracking-widest">
@@ -19,7 +19,7 @@ const AboutPage = () => {
             </p>
           </div>
 
-          <div className="my-4">
+          <div className="my-4 ">
             <h2 className="text-2xl text-center font-semibold mb-4 uppercase tracking-widest">
               My Story
             </h2>

@@ -11,7 +11,10 @@ const Hero = () => {
       >
         <HeroText />
       </div>
-      <div className="hidden md:block" id="heroImage">
+      <div
+        className="hidden md:block motion motion-preset-slide-left motion-delay-[700ms] motion-ease-spring-bouncier"
+        id="heroImage"
+      >
         <HeroImage />
       </div>
     </div>
