@@ -87,34 +87,47 @@ const Skills = () => {
 
   return (
     <div className="flex flex-col items-center w-full h-screen space-y-3 mb-48">
-      <h1 className="text-2xl font-semibold tracking-[5px] text-center mt-10 border-8 border-black w-48 mx-auto uppercase px-6 py-3">
+      <h1 className="text-2xl font-semibold tracking-[5px] text-center mt-10 border-8 border-black w-48 mx-auto uppercase px-6 py-3 mb-10 md:mb-0">
         Skills
       </h1>
       <div className="flex flex-col items-start">
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
-          variants={slideInFromLeft(0)}
-        >
+        {/* Animation for larger screens */}
+        <div className="hidden md:block">
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
+            variants={slideInFromLeft(0)}
+            className="flex items-start"
+          >
+            {renderSkills(designSkills, "Design")}
+          </motion.div>
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
+            variants={slideInFromLeft(0.5)}
+            className="flex items-start"
+          >
+            {renderSkills(languageSkills, "Languages")}
+          </motion.div>
+          <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
+            variants={slideInFromLeft(1)}
+            className="flex items-start"
+          >
+            {renderSkills(additionalSkills, "Tools")}
+          </motion.div>
+        </div>
+
+        {/* Static layout for smaller screens */}
+        <div className="block md:hidden">
           {renderSkills(designSkills, "Design")}
-        </motion.div>
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
-          variants={slideInFromLeft(0.5)}
-        >
           {renderSkills(languageSkills, "Languages")}
-        </motion.div>
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
-          variants={slideInFromLeft(1)}
-        >
           {renderSkills(additionalSkills, "Tools")}
-        </motion.div>
+        </div>
       </div>
     </div>
   );
