@@ -1,5 +1,8 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 // Import SVG files
 import CSS3 from "../assets/CSS3.svg";
@@ -53,6 +56,12 @@ const additionalSkills: Skill[] = [
   { name: "Wordpress", icon: Wordpress },
 ];
 
+// Animation configuration
+const slideInFromLeft = (delay: number) => ({
+  hidden: { opacity: 0, x: -100 },
+  visible: { opacity: 1, x: 0, transition: { duration: 0.75, delay } },
+});
+
 const Skills = () => {
   const renderSkills = (skills: Skill[], category: string) => (
     <div className="my-2 ">
@@ -82,15 +91,30 @@ const Skills = () => {
         Skills
       </h1>
       <div className="flex flex-col items-start">
-        <div className="motion-preset-rebound-left motion-delay-0">
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+          variants={slideInFromLeft(0)}
+        >
           {renderSkills(designSkills, "Design")}
-        </div>
-        <div className="motion-preset-rebound-left motion-delay-500">
+        </motion.div>
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+          variants={slideInFromLeft(0.5)}
+        >
           {renderSkills(languageSkills, "Languages")}
-        </div>
-        <div className="motion-preset-rebound-left motion-delay-1000">
+        </motion.div>
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+          variants={slideInFromLeft(1)}
+        >
           {renderSkills(additionalSkills, "Tools")}
-        </div>
+        </motion.div>
       </div>
     </div>
   );
