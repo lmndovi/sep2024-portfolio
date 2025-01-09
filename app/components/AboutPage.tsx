@@ -6,7 +6,7 @@ import React from "react";
 const AboutPage = () => {
   return (
     <div className="flex flex-col items-center w-full h-screen space-y-5 mb-20 md:mb-0">
-      <h1 className="text-2xl font-semibold tracking-[5px] text-center my-16 border-8 border-black w-48 mx-auto uppercase px-6 py-3">
+      <h1 className="text-2xl font-semibold tracking-[5px] text-center my-16 border-8 border-white w-48 mx-auto uppercase px-6 py-3">
         About
       </h1>
       <motion.div

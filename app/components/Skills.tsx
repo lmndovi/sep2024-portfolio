@@ -74,7 +74,7 @@ const Skills = () => {
             <Image
               src={skill.icon}
               alt={`${skill.name} icon`}
-              className="object-contain mb-2 w-10 md:w-16 hover:motion-preset-spin motion-duration-2000"
+              className="object-contain mb-2 w-10 md:w-16"
             />
             <p className="text-sm mt-2 tracking-widest uppercase">
               {skill.name}
@@ -86,8 +86,8 @@ const Skills = () => {
   );
 
   return (
-    <div className="flex flex-col items-center w-full h-screen space-y-3 mb-48">
-      <h1 className="text-2xl font-semibold tracking-[5px] text-center mt-10 border-8 border-black w-48 mx-auto uppercase px-6 py-3 mb-10 md:mb-0">
+    <div className="flex flex-col items-center w-full h-screen space-y-3 mb-48 md:mb-0">
+      <h1 className="text-2xl font-semibold tracking-[5px] text-center mt-10 border-8 border-white w-48 mx-auto uppercase px-6 py-3 mb-10 md:mb-0">
         Skills
       </h1>
       <div className="flex flex-col items-start">

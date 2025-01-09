@@ -6,7 +6,12 @@ import React from "react";
 const HeroImage = () => {
   return (
     <div>
-      <Image src={hero} alt="Lu Ndovi" className="h-[652px] w-[500px]" />
+      <Image
+        src={hero}
+        alt="Lu Ndovi"
+        className="md:h-[646px] md:w-[450px] lg:h-[648px] lg:w-[500px] xl:h-[654px]"
+        priority // Ensures the image loads quickly as it's in the viewport
+      />
     </div>
   );
 };

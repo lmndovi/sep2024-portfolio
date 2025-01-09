@@ -13,7 +13,7 @@ const footerLinkStyle = cva(
 
 const Footer = () => {
   return (
-    <footer className="bg-black px-5 py-10 mt-10">
+    <footer className="bg-black px-5 py-10 mt-10 w-screen">
       <div className="flex flex-col md:flex-row space-y-5 justify-between items-center max-w-6xl mx-auto">
         <div>
           <p className="text-lg text-[#D7D7D7]">

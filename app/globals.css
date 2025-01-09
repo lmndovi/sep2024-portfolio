@@ -8,9 +8,15 @@ html {
 
 .landing {
   height: 100vh;
-  background: linear-gradient(170deg, #d7d7d7 50%, #141414 50%);
-  background: -webkit-linear-gradient(170deg, #d7d7d7 50%, #141414 50%);
-
+  background: linear-gradient(
+      120deg,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(215, 215, 215, 1) 60%
+    ),
+    /* Gradient */ url("./assets/blacksand.jpg"); /* Image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   /* Mobile-specific background */
   @media (max-width: 767px) {
     background: url("./assets/blacksand.jpg");

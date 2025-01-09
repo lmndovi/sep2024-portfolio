@@ -12,7 +12,7 @@ const Hero = () => {
         <HeroText />
       </div>
       <div
-        className="hidden md:block motion motion-preset-slide-left motion-delay-[700ms] motion-ease-spring-bouncier"
+        className="hidden md:flex items-end justify-center h-full pb-10 motion motion-preset-slide-left motion-delay-[700ms] motion-ease-spring-bouncier"
         id="heroImage"
       >
         <HeroImage />

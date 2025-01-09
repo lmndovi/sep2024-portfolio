@@ -28,6 +28,13 @@ export default function RootLayout({
           type="image/<generated>"
           sizes="<generated>"
         />
+        <link
+          rel="preload"
+          href="/assets/blacksand.jpg"
+          as="image"
+          type="image/jpeg"
+          media="(min-width: 0)"
+        />
       </head>
       <body className={`${roboto.className} antialiased`}>{children}</body>
     </html>

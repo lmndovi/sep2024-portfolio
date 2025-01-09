@@ -17,11 +17,14 @@ export default function Home() {
           <Hero />
         </main>
       </div>
-      <section className="h-screen flex-1 mt-3 mb-[340px] md:my-3 " id="about">
+      <section
+        className="h-screen flex-1  bg-black text-white w-screen"
+        id="about"
+      >
         <AboutPage />
       </section>
       <section
-        className="h-screen flex-1 mt-3 mb-[240px] md:my-3 px-10 md:px-0  "
+        className="h-screen flex-1 mb-[240px] md:mb-0 px-10 md:px-0  bg-[#2b2b2b] w-screen text-white"
         id="skills"
       >
         <Skills />
