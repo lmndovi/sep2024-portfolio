@@ -5,23 +5,23 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 // Import SVG files
-import CSS3 from "../assets/CSS3.svg";
-import Figma from "../assets/Figma.svg";
-import Git from "../assets/Git.svg";
-import GitHub from "../assets/GitHub.svg";
-import HTML5 from "../assets/HTML5.svg";
-import Javascript from "../assets/Javascript.svg";
-import Nextjs from "../assets/Nextjs.svg";
-import NPM from "../assets/NPM.svg";
-import PHP from "../assets/PHP.svg";
-import Python from "../assets/Python.svg";
-import ReactIcon from "../assets/React.svg"; // Renaming to avoid conflict with React
-import Sanity from "../assets/Sanity.svg";
-import ShadCN from "../assets/ShadCN.svg";
-import Shopify from "@/app/assets/Shopify.svg";
-import TailwindCSS from "../assets/TailwindCSS.svg";
-import TypeScript from "../assets/TypeScript.svg";
-import Wordpress from "@/app/assets/Wordpress.svg";
+import CSS3 from "../assets/CSS3-w.svg";
+import Figma from "../assets/Figma-w.svg";
+import Git from "../assets/Git-w.svg";
+import GitHub from "../assets/GitHubSocialIcon-w.svg";
+import HTML5 from "../assets/HTML5-w.svg";
+import Javascript from "../assets/Javascript-w.svg";
+import Nextjs from "../assets/Nextjs-w.svg";
+import NPM from "../assets/NPM-w.svg";
+import PHP from "../assets/PHP-w.svg";
+import Python from "../assets/Python-w.svg";
+import ReactIcon from "../assets/React-w.svg"; // Renaming to avoid conflict with React
+import Sanity from "../assets/Sanity-w.svg";
+import ShadCN from "../assets/ui-w.svg";
+import Shopify from "@/app/assets/Shopify-w.svg";
+import TailwindCSS from "../assets/TailwindCSS-w.svg";
+import TypeScript from "../assets/TypeScript-w.svg";
+import Wordpress from "@/app/assets/Wordpress-w.svg";
 
 // Define Skill type
 interface Skill {
