@@ -14,7 +14,7 @@ import { cva } from "class-variance-authority";
 
 // Custom style for the "Contact" link
 const contactLinkStyle = cva(
-  "group inline-flex h-9 w-max items-center justify-center rounded-2xl px-4 py-2 text-[#28282B] text-md font-medium bg-[#D7D7D7] transition-colors hover:bg-[#28282B] hover:text-[#D7D7D7] focus:bg-[#28282B]] focus:text-[#D7D7D7] border-2 border-black"
+  "group inline-flex h-9 w-max items-center justify-center rounded-2xl px-4 py-2 text-[#28282B] text-md font-medium bg-[#D7D7D7] transition-colors hover:bg-[#28282B] hover:text-[#FDDA0D] focus:bg-[#28282B]] focus::text-[#FDDA0D] border-2 border-black"
 );
 
 const Navbar = () => {
