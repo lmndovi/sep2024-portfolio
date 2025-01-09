@@ -64,8 +64,8 @@ const slideInFromLeft = (delay: number) => ({
 
 const Skills = () => {
   const renderSkills = (skills: Skill[], category: string) => (
-    <div className="my-2 ">
-      <h2 className="text-xl font-semibold mb-4 uppercase tracking-widest">
+    <div className="my-5 ">
+      <h2 className="text-xl font-semibold mb-4 uppercase tracking-widest ">
         {category}:
       </h2>
       <div className="flex flex-wrap justify-center items-center gap-6">
@@ -74,7 +74,7 @@ const Skills = () => {
             <Image
               src={skill.icon}
               alt={`${skill.name} icon`}
-              className="object-contain mb-2 w-10 md:w-16"
+              className="object-contain mb-2 w-10 md:w-12 opacity-60"
             />
             <p className="text-sm mt-2 tracking-widest uppercase">
               {skill.name}

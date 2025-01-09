@@ -22,7 +22,7 @@ const AboutPage = () => {
       >
         <main className="grid grid-cols-1 md:grid-cols-3 gap-10 w-full px-16 md:max-w-[1400px]">
           <div className="my-4 md:pt-52">
-            <h2 className="text-center text-2xl font-semibold mb-4 uppercase tracking-widest">
+            <h2 className="text-center text-[#FDDA0D] text-2xl font-semibold mb-4 uppercase tracking-widest">
               Development
             </h2>
             <p className="text-md tracking-widest">
@@ -33,7 +33,7 @@ const AboutPage = () => {
           </div>
 
           <div className="my-4 ">
-            <h2 className="text-2xl text-center font-semibold mb-4 uppercase tracking-widest">
+            <h2 className="text-2xl text-[#FDDA0D] text-center font-semibold mb-4 uppercase tracking-widest">
               My Story
             </h2>
             <p className="text-md tracking-widest">
@@ -45,7 +45,7 @@ const AboutPage = () => {
           </div>
 
           <div className="my-4 md:pt-52">
-            <h2 className=" text-center text-2xl font-semibold mb-4 uppercase tracking-widest">
+            <h2 className=" text-center text-[#FDDA0D] text-2xl font-semibold mb-4 uppercase tracking-widest">
               Design
             </h2>
             <p className="text-md tracking-widest">

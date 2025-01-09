@@ -74,7 +74,7 @@ const Contact = () => {
 
   return (
     <div className="flex flex-col space-y-5 w-full h-screen">
-      <h1 className="text-2xl font-semibold tracking-[5px] text-center my-16 border-8 border-black w-48 mx-auto uppercase px-6 py-3">
+      <h1 className="text-2xl font-semibold tracking-[5px] text-center my-16 border-8 border-white w-48 mx-auto uppercase px-6 py-3 ">
         Contact
       </h1>
       {showPopup && (
@@ -135,7 +135,7 @@ const Contact = () => {
         <div className="flex justify-center">
           <Button
             type="submit"
-            className=" py-5 px-10 rounded-md text-white font-bold text-lg cursor-pointer"
+            className=" py-5 px-10 rounded-md bg-[#d7d7d7] text-black font-bold text-lg cursor-pointer hover:bg-[#FDDA0D]"
           >
             Submit
           </Button>

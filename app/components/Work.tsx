@@ -76,7 +76,9 @@ const Work = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button>View Website</Button>
+                  <Button className=" py-5 px-10 rounded-md font-bold text-lg cursor-pointer hover:bg-[#FDDA0D] hover:text-[#2b2b2b]">
+                    View Website
+                  </Button>
                 </Link>
               </div>
             </div>
@@ -144,7 +146,9 @@ const Work = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button>View Website</Button>
+                <Button className=" py-5 px-10 rounded-md font-bold text-lg cursor-pointer">
+                  View Website
+                </Button>
               </Link>
             </div>
           </div>

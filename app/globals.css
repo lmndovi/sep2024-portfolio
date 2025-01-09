@@ -92,5 +92,5 @@ html {
 }
 
 .contactInput {
-  @apply outline-none bg-zinc-900 rounded-sm border-b px-1 md:px-[58px] py-5 border-[#242424] text-gray-400 placeholder-white transition-all focus:border-[#FDDA0D]/40 focus:text-[#FDDA0D]/90 hover:border-[#FDDA0D]/40;
+  @apply outline-none bg-[#d7d7d7] rounded-sm border-b px-1 md:px-[58px] py-5 border-[#242424] text-[#2b2b2b]/80 placeholder-[#2b2b2b] transition-all focus:border-[#FDDA0D]/40 focus:text-black/90 hover:border-[#FDDA0D]/40;
 }

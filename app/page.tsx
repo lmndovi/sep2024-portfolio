@@ -29,10 +29,10 @@ export default function Home() {
       >
         <Skills />
       </section>
-      <section className="h-screen flex-1 mt-3 mb-[500px] md:my-3" id="work">
+      <section className="h-screen flex-1 mt-3 mb-[500px] md:mb-0" id="work">
         <Work />
       </section>
-      <section className="h-screen flex-1 my-3" id="contact">
+      <section className="h-screen flex-1 bg-black text-white" id="contact">
         <Contact />
       </section>
       <footer>
