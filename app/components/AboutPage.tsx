@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import profilePic from "@/app/assets/mobileProfile.JPG";
+import profilePic from "@/app/assets/githubPortfolio.jpg";
 import Image from "next/image";
 
 import React from "react";
