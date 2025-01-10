@@ -11,7 +11,6 @@ import {
 import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
 
 import { cva } from "class-variance-authority";
-import MenuDrawer from "./MenuDrawer";
 
 // Custom style for the "Contact" link
 const contactLinkStyle = cva(
