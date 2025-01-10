@@ -24,12 +24,12 @@ export default function Home() {
         <AboutPage />
       </section>
       <section
-        className="h-screen flex-1 mb-[240px] md:mb-0 px-10 md:px-0  bg-[#2b2b2b] w-screen text-white"
+        className="h-screen flex-1  md:mb-0 px-10 md:px-0  bg-[#2b2b2b] w-screen text-white"
         id="skills"
       >
         <Skills />
       </section>
-      <section className="h-screen flex-1 mt-3 mb-[500px] md:mb-0" id="work">
+      <section className="h-screen flex-1 md:mb-0" id="work">
         <Work />
       </section>
       <section className="h-screen flex-1 bg-black text-white" id="contact">

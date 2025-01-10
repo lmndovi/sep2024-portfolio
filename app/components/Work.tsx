@@ -76,7 +76,7 @@ const Work = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button className=" py-5 px-10 rounded-md font-bold text-lg cursor-pointer hover:bg-[#FDDA0D] hover:text-[#2b2b2b]">
+                  <Button className=" py-5 px-10 rounded-md font-bold text-md cursor-pointer hover:bg-[#FDDA0D] hover:text-[#2b2b2b]">
                     View Website
                   </Button>
                 </Link>
@@ -105,7 +105,7 @@ const Work = () => {
         </div>
 
         {/* Static layout for smaller screens */}
-        <div className="block md:hidden space-y-5">
+        <div className="block md:hidden space-y-16">
           <div id="workText" className="space-y-6">
             <h2 className="text-center font-semibold text-2xl uppercase tracking-widest underline underline-offset-2 decoration-4">
               GG&#39;s Authentic Site
@@ -129,17 +129,20 @@ const Work = () => {
                 <strong>Algorithm-based recommendations</strong>
               </li>
             </ul>
-            <p className="text-sm tracking-wide md:px-10 mt-4">
+
+            {/* Not included in mobile versions */}
+
+            {/* <p className="text-sm tracking-wide md:px-10 mt-4">
               Custom dropdowns, a hover-activated menu, and a mobile-friendly
               hamburger menu enable easy navigation, while advanced search,
               filters, and secure payment ensure smooth transactions.
-            </p>
-            <p className="text-sm tracking-wide md:px-10 mt-4">
+            </p> */}
+            {/* <p className="text-sm tracking-wide md:px-10 mt-4">
               Marketing integrations like JudgeMe and Shopify Email, plus a
               discount opt-in form, boost engagement. Custom visuals and initial
               review data enhance the platform, creating a user-focused shopping
               experience.
-            </p>
+            </p> */}
             <div className="flex flex-col items-center justify-center py-3">
               <Link
                 href="https://ggsauthentic.com/"
@@ -161,7 +164,7 @@ const Work = () => {
               <Image
                 src={ggsmockup}
                 alt="ggsauthentic.com"
-                className="h-full md:h-96 w-full md:w-screen"
+                className="h-full md:h-96 w-full md:w-full"
               />
             </Link>
           </div>

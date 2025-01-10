@@ -1,5 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
+import profilePic from "@/app/assets/mobileProfile.JPG";
+import Image from "next/image";
 
 import React from "react";
 
@@ -31,8 +33,15 @@ const AboutPage = () => {
               bespoke themes to match their vision.
             </p>
           </div>
+          <div className="md:hidden">
+            <Image
+              src={profilePic}
+              alt="mobile profile picture"
+              className="h-full w-full rounded-3xl"
+            />
+          </div>
 
-          <div className="my-4 ">
+          <div className="my-4 hidden md:block">
             <h2 className="text-2xl text-[#FDDA0D] text-center font-semibold mb-4 uppercase tracking-widest">
               My Story
             </h2>
@@ -44,7 +53,7 @@ const AboutPage = () => {
             </p>
           </div>
 
-          <div className="my-4 md:pt-52">
+          <div className="my-4 md:pt-52 hidden md:block">
             <h2 className=" text-center text-[#FDDA0D] text-2xl font-semibold mb-4 uppercase tracking-widest">
               Design
             </h2>

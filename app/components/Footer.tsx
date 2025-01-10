@@ -54,17 +54,25 @@ const Footer = () => {
             href="https://github.com/lmndovi"
             target="_blank"
             rel="noopener noreferrer"
-            className={footerLinkStyle()}
+            className="group"
           >
-            <Image src={GitHubIcon} alt="Twitter" />
+            <Image
+              src={GitHubIcon}
+              alt="Twitter"
+              className="transition-transform transform group-hover:scale-110 group-hover:filter group-hover:brightness-125"
+            />
           </Link>
           <Link
             href="https://www.linkedin.com/in/lu-ndovi-713819208/?originalSubdomain=uk"
             target="_blank"
             rel="noopener noreferrer"
-            className={footerLinkStyle()}
+            className="group"
           >
-            <Image src={LinkedIn} alt="Twitter" />
+            <Image
+              src={LinkedIn}
+              alt="Twitter"
+              className="transition-transform transform group-hover:scale-110 group-hover:filter group-hover:brightness-125"
+            />
           </Link>
         </div>
       </div>

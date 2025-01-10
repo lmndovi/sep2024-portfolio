@@ -85,7 +85,7 @@ const Contact = () => {
       )}
       <p className="text-3xl font-light tracking-wide text-center pb-10">
         Turning your ideas into digital solutions. <br />
-        Let&apos;s talk!
+        <span className="text-[#FDDA0D]">Let&apos;s talk!</span>
       </p>
       <form
         onSubmit={handleSubmit}
@@ -135,7 +135,7 @@ const Contact = () => {
         <div className="flex justify-center">
           <Button
             type="submit"
-            className=" py-5 px-10 rounded-md bg-[#d7d7d7] text-black font-bold text-lg cursor-pointer hover:bg-[#FDDA0D]"
+            className=" py-5 px-10 rounded-md bg-[#d7d7d7] text-black font-bold text-md cursor-pointer hover:bg-[#FDDA0D]"
           >
             Submit
           </Button>
