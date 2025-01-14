@@ -87,7 +87,7 @@ const Skills = () => {
 
   return (
     <div className="flex flex-col items-center w-full h-screen space-y-3 mb-48 md:mb-0">
-      <h1 className="text-2xl font-semibold tracking-[5px] text-center mt-10 border-8 border-white w-48 mx-auto uppercase px-6 py-3 mb-10 md:mb-0 galaxyS9:my-8 galaxyZF5:my-12 blackBerryZ30:my-8 blackBerryPlayBook:my-16">
+      <h1 className="text-2xl font-semibold tracking-[5px] text-center mt-10 border-8 border-white w-48 mx-auto uppercase px-6 py-3 mb-10 md:mb-0 galaxyS9:my-6 galaxyZF5:my-12 blackBerryZ30:my-8 blackBerryPlayBook:my-16">
         Skills
       </h1>
       <div className="flex flex-col items-start ipadMini:px-16">
