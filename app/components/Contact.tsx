@@ -74,7 +74,7 @@ const Contact = () => {
 
   return (
     <div className="flex flex-col space-y-5 w-full h-screen">
-      <h1 className="text-2xl font-semibold tracking-[5px] text-center my-16 border-8 border-white w-48 mx-auto uppercase px-6 py-3 ">
+      <h1 className="text-2xl font-semibold tracking-[5px] text-center my-16 border-8 border-white w-48 mx-auto uppercase px-6 py-3 galaxyS9:my-8">
         Contact
       </h1>
       {showPopup && (
@@ -83,7 +83,7 @@ const Contact = () => {
           <p>We Will Get Back To You Shortly</p>
         </div>
       )}
-      <p className="text-3xl font-light tracking-wide text-center pb-10">
+      <p className="text-3xl font-light tracking-wide text-center pb-10 galaxyS9:px-3 galaxyS9:text-2xl">
         Turning your ideas into digital solutions. <br />
         <span className="text-[#FDDA0D]">Let&apos;s talk!</span>
       </p>
@@ -135,7 +135,7 @@ const Contact = () => {
         <div className="flex justify-center">
           <Button
             type="submit"
-            className=" py-5 px-10 rounded-md bg-[#d7d7d7] text-black font-bold text-md cursor-pointer hover:bg-[#FDDA0D]"
+            className=" md:py-5 md:px-10 rounded-md bg-[#d7d7d7] text-black font-bold md:text-md cursor-pointer hover:bg-[#FDDA0D] galaxyS9:text-sm galaxyS9:py-2 galaxyS9:px-5"
           >
             Submit
           </Button>

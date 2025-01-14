@@ -14,9 +14,9 @@ const footerLinkStyle = cva(
 const Footer = () => {
   return (
     <footer className="bg-black px-5 py-10 w-screen">
-      <div className="flex flex-col md:flex-row space-y-5 justify-between items-center max-w-6xl mx-auto">
-        <div>
-          <p className="text-lg text-[#D7D7D7]">
+      <div className="flex flex-col md:flex-row space-y-6 justify-between items-center max-w-6xl mx-auto">
+        <div className="galaxyS9:hidden md:block">
+          <p className="text-lg text-[#D7D7D7] galaxyS9:text-sm">
             © 2024 Developed & designed by Lu Ndovi.
           </p>
         </div>
@@ -74,6 +74,11 @@ const Footer = () => {
               className="transition-transform transform group-hover:scale-110 group-hover:filter group-hover:brightness-125"
             />
           </Link>
+        </div>
+        <div className="md:hidden">
+          <p className="text-lg text-[#D7D7D7] galaxyS9:text-sm">
+            © 2024 Developed & designed by Lu Ndovi.
+          </p>
         </div>
       </div>
     </footer>
