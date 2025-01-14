@@ -115,11 +115,11 @@ const Work = () => {
               seamless shopping experience.
               <br />
               <br />
-              <span className="galaxyS9:hidden">
+              <span className="galaxyS9:hidden galaxyZF5:block">
                 Interactive features include:
               </span>
             </p>
-            <ul className="text-sm tracking-wide md:px-12 list-disc list-inside space-y-1 galaxyS9:hidden">
+            <ul className="text-sm tracking-wide md:px-12 list-disc list-inside space-y-1 galaxyS9:hidden galaxyZF5:block">
               <li>
                 <strong>
                   Variant selectors, quantity controls, and image carousels
@@ -133,7 +133,7 @@ const Work = () => {
               </li>
             </ul>
 
-            <div className="flex flex-col items-center justify-center py-3 galaxyS9:py-0">
+            <div className="flex flex-col items-center justify-center py-3 galaxyS9:py-0 galaxyZF5:py-3">
               <Link
                 href="https://ggsauthentic.com/"
                 target="_blank"
