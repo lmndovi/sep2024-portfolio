@@ -65,16 +65,16 @@ const slideInFromLeft = (delay: number) => ({
 const Skills = () => {
   const renderSkills = (skills: Skill[], category: string) => (
     <div className="my-5 blackBerryZ30:my-3 iphone12Pro:my-8">
-      <h2 className="text-xl font-semibold mb-4 uppercase tracking-widest galaxyS9:text-md galaxyS9:my-3">
+      <h2 className="text-xl font-semibold mb-4 uppercase tracking-widest galaxyS9:text-md galaxyS9:my-3 blackBerryPlayBook:my-5 blackBerryPlayBook:text-2xl">
         {category}:
       </h2>
       <div className="flex flex-wrap justify-center items-center gap-6 galaxyS9:gap-2">
         {skills.map((skill: Skill) => (
-          <div key={skill.name} className="flex flex-col items-center p-2 ">
+          <div key={skill.name} className="flex flex-col items-center p-2">
             <Image
               src={skill.icon}
               alt={`${skill.name} icon`}
-              className="object-contain mb-2 w-10 md:w-12 opacity-60 galaxyS9:w-6"
+              className="object-contain mb-2 w-10 md:w-12 opacity-60 galaxyS9:w-6 blackBerryPlayBook:w-12"
             />
             <p className="text-sm mt-2 tracking-wider uppercase galaxyS9:text-xs">
               {skill.name}
@@ -87,7 +87,7 @@ const Skills = () => {
 
   return (
     <div className="flex flex-col items-center w-full h-screen space-y-3 mb-48 md:mb-0">
-      <h1 className="text-2xl font-semibold tracking-[5px] text-center mt-10 border-8 border-white w-48 mx-auto uppercase px-6 py-3 mb-10 md:mb-0 galaxyS9:my-8 galaxyZF5:my-12 blackBerryZ30:my-8">
+      <h1 className="text-2xl font-semibold tracking-[5px] text-center mt-10 border-8 border-white w-48 mx-auto uppercase px-6 py-3 mb-10 md:mb-0 galaxyS9:my-8 galaxyZF5:my-12 blackBerryZ30:my-8 blackBerryPlayBook:my-16">
         Skills
       </h1>
       <div className="flex flex-col items-start">

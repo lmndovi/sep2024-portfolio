@@ -74,7 +74,7 @@ const Contact = () => {
 
   return (
     <div className="flex flex-col space-y-5 w-full h-screen">
-      <h1 className="text-2xl font-semibold tracking-[5px] text-center my-16 border-8 border-white w-48 mx-auto uppercase px-6 py-3 galaxyS9:my-8 galaxyZF5:my-12 blackBerryZ30:my-8">
+      <h1 className="text-2xl font-semibold tracking-[5px] text-center my-16 border-8 border-white w-48 mx-auto uppercase px-6 py-3 galaxyS9:my-8 galaxyZF5:my-12 blackBerryZ30:my-8 blackBerryPlayBook:my-16">
         Contact
       </h1>
       {showPopup && (
@@ -135,7 +135,7 @@ const Contact = () => {
         <div className="flex justify-center">
           <Button
             type="submit"
-            className=" md:py-5 md:px-10 rounded-md bg-[#d7d7d7] text-black font-bold md:text-md cursor-pointer hover:bg-[#FDDA0D] galaxyS9:text-sm galaxyS9:py-2 galaxyS9:px-5"
+            className=" md:py-5 md:px-10 rounded-md bg-[#d7d7d7] text-black font-bold md:text-md cursor-pointer hover:bg-[#FDDA0D] galaxyS9:text-sm galaxyS9:py-2 galaxyS9:px-5 blackBerryPlayBook:px-10 blackBerryPlayBook:py-6 blackBerryPlayBook:text-lg"
           >
             Submit
           </Button>
