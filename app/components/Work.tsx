@@ -115,11 +115,11 @@ const Work = () => {
               seamless shopping experience.
               <br />
               <br />
-              <span className="galaxyS9:hidden galaxyZF5:block blackBerryZ30:hidden">
+              <span className="galaxyS9:hidden galaxyZF5:block blackBerryZ30:hidden iphone12Pro:block">
                 Interactive features include:
               </span>
             </p>
-            <ul className="text-sm tracking-wide md:px-12 list-disc list-inside space-y-1 galaxyS9:hidden galaxyZF5:block blackBerryZ30:hidden">
+            <ul className="text-sm tracking-wide md:px-12 list-disc list-inside space-y-1 galaxyS9:hidden galaxyZF5:block blackBerryZ30:hidden iphone12Pro:block iphone12Pro:text-xs">
               <li>
                 <strong>
                   Variant selectors, quantity controls, and image carousels
