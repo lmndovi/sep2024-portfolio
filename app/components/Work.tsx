@@ -21,7 +21,7 @@ const Work = () => {
 
   return (
     <div className="flex flex-col space-y-5 w-full h-screen">
-      <h1 className="text-2xl font-semibold tracking-[5px] text-center my-16 border-8 border-black w-48 mx-auto uppercase px-6 py-3">
+      <h1 className="text-2xl font-semibold tracking-[5px] text-center my-16 border-8 border-black w-48 mx-auto uppercase px-6 py-3 galaxyS9:my-8">
         Work
       </h1>
 
@@ -106,17 +106,20 @@ const Work = () => {
 
         {/* Static layout for smaller screens */}
         <div className="block md:hidden space-y-16">
-          <div id="workText" className="space-y-6">
-            <h2 className="text-center font-semibold text-2xl uppercase tracking-widest underline underline-offset-2 decoration-4">
+          <div id="workText" className="space-y-6 galaxyS9:space-y-4">
+            <h2 className="text-center font-semibold text-2xl uppercase tracking-widest underline underline-offset-2 decoration-4 galaxyS9:text-base">
               GG&#39;s Authentic Site
             </h2>
-            <p className="text-sm tracking-wide md:px-10">
-              An e-commerce website designed for a seamless shopping experience.
+            <p className="text-sm tracking-wide md:px-10 galaxyS9:text-xs">
+              An e-commerce website with a theme designed from scratch, for a
+              seamless shopping experience.
               <br />
               <br />
-              Interactive features include:
+              <span className="galaxyS9:hidden">
+                Interactive features include:
+              </span>
             </p>
-            <ul className="text-sm tracking-wide md:px-12 list-disc list-inside space-y-1">
+            <ul className="text-sm tracking-wide md:px-12 list-disc list-inside space-y-1 galaxyS9:hidden">
               <li>
                 <strong>
                   Variant selectors, quantity controls, and image carousels
@@ -130,26 +133,13 @@ const Work = () => {
               </li>
             </ul>
 
-            {/* Not included in mobile versions */}
-
-            {/* <p className="text-sm tracking-wide md:px-10 mt-4">
-              Custom dropdowns, a hover-activated menu, and a mobile-friendly
-              hamburger menu enable easy navigation, while advanced search,
-              filters, and secure payment ensure smooth transactions.
-            </p> */}
-            {/* <p className="text-sm tracking-wide md:px-10 mt-4">
-              Marketing integrations like JudgeMe and Shopify Email, plus a
-              discount opt-in form, boost engagement. Custom visuals and initial
-              review data enhance the platform, creating a user-focused shopping
-              experience.
-            </p> */}
-            <div className="flex flex-col items-center justify-center py-3">
+            <div className="flex flex-col items-center justify-center py-3 galaxyS9:py-0">
               <Link
                 href="https://ggsauthentic.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button className=" py-5 px-10 rounded-md font-bold text-lg cursor-pointer">
+                <Button className="py-5 px-10 rounded-md font-bold text-lg cursor-pointer galaxyS9:text-sm galaxyS9:py-2 galaxyS9:px-5">
                   View Website
                 </Button>
               </Link>
