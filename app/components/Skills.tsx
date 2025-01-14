@@ -65,7 +65,7 @@ const slideInFromLeft = (delay: number) => ({
 const Skills = () => {
   const renderSkills = (skills: Skill[], category: string) => (
     <div className="my-5 blackBerryZ30:my-3 iphone12Pro:my-8">
-      <h2 className="text-xl font-semibold mb-4 uppercase tracking-widest galaxyS9:text-md galaxyS9:my-3 blackBerryPlayBook:my-5 blackBerryPlayBook:text-2xl">
+      <h2 className="text-xl font-semibold mb-4 uppercase tracking-widest galaxyS9:text-md galaxyS9:my-2 blackBerryPlayBook:my-5 blackBerryPlayBook:text-2xl">
         {category}:
       </h2>
       <div className="flex flex-wrap justify-center items-center gap-6 galaxyS9:gap-2">
