@@ -33,7 +33,7 @@ const AboutPage = () => {
               bespoke themes to match their vision.
             </p>
           </div>
-          <div className="md:hidden mx-auto blackBerryZ30:h-60 iphone12Pro:h-full">
+          <div className="md:hidden mx-auto blackBerryZ30:h-60 iphone12Pro:h-full surfaceDuo:h-80">
             <Image
               src={profilePic}
               alt="mobile profile picture"

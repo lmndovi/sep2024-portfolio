@@ -154,7 +154,7 @@ const Work = () => {
               <Image
                 src={ggsmockup}
                 alt="ggsauthentic.com"
-                className="h-full md:h-96 w-full md:w-full"
+                className="mx-auto h-full md:h-96 w-full md:w-full surfaceDuo:w-72"
               />
             </Link>
           </div>
