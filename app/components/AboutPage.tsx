@@ -22,9 +22,9 @@ const AboutPage = () => {
         viewport={{ once: true }}
         className="flex items-center justify-center "
       >
-        <main className="grid grid-cols-1 md:grid-cols-3 gap-10 w-full px-16 md:max-w-[1400px]">
-          <div className="my-4 md:pt-52">
-            <h2 className=" text-[#FDDA0D] md:text-2xl font-semibold mb-4 uppercase tracking-widest galaxyS9:text-center galaxyS9:text-lg blackBerryPlayBook:text-2xl blackBerryPlayBook:">
+        <main className="grid grid-cols-1 ipadAir:grid-cols-3 gap-10 w-full px-16 ipadAir:max-w-[1400px] ipadMini:max-w-[700px]">
+          <div className="my-4 ipadAir:pt-52">
+            <h2 className=" text-[#FDDA0D] md:text-2xl font-semibold mb-4 uppercase tracking-widest galaxyS9:text-center galaxyS9:text-lg blackBerryPlayBook:text-2xl">
               Development
             </h2>
             <p className=" tracking-widest md:text-md md:text-left galaxyS9:text-xs galaxyS9:text-center blackBerryPlayBook:text-lg">
@@ -45,7 +45,7 @@ const AboutPage = () => {
             <h2 className="text-2xl text-[#FDDA0D] text-center font-semibold mb-4 uppercase tracking-widest">
               My Story
             </h2>
-            <p className="text-md tracking-widest">
+            <p className="text-md tracking-widest ipadMini:text-lg">
               During the pandemic, I discovered a passion for coding that led to
               a career shift. I delved into Python, JavaScript, TypeScript, and
               Shopify Liquid, transforming my curiosity into a professional
@@ -53,11 +53,11 @@ const AboutPage = () => {
             </p>
           </div>
 
-          <div className="my-4 md:pt-52 hidden md:block">
+          <div className="my-4 ipadAir:pt-52 hidden md:block">
             <h2 className=" text-center text-[#FDDA0D] text-2xl font-semibold mb-4 uppercase tracking-widest">
               Design
             </h2>
-            <p className="text-md tracking-widest">
+            <p className="text-md tracking-widest ipadMini:text-lg">
               I design websites that reflect clients&#39; brands, blending
               aesthetics with functionality to enhance their image and user
               experience, aligning with their goals and values.

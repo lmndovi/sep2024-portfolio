@@ -18,7 +18,7 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   /* Mobile-specific background */
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     background: url("./assets/blacksand.jpg");
     background-size: cover;
     background-position: center;

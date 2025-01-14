@@ -83,7 +83,7 @@ const Contact = () => {
           <p>We Will Get Back To You Shortly</p>
         </div>
       )}
-      <p className="text-3xl font-light tracking-wide text-center pb-10 galaxyS9:px-3 galaxyS9:text-2xl">
+      <p className="text-3xl font-light tracking-wide text-center pb-10 galaxyS9:px-3 galaxyS9:text-2xl ipadMini:text-5xl ipadMini:px-20">
         Turning your ideas into digital solutions. <br />
         <span className="text-[#FDDA0D]">Let&apos;s talk!</span>
       </p>
