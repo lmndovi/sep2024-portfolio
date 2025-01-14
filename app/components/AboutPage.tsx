@@ -7,7 +7,7 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <div className="flex flex-col items-center w-full h-screen space-y-5 mb-20 md:mb-0">
+    <div className="flex flex-col items-center w-full h-screen space-y-5 mb-0 md:mb-0">
       <h1 className="text-2xl font-semibold tracking-[5px] text-center my-16 border-8 border-white w-48 mx-auto uppercase px-6 py-3">
         About
       </h1>
@@ -24,10 +24,10 @@ const AboutPage = () => {
       >
         <main className="grid grid-cols-1 md:grid-cols-3 gap-10 w-full px-16 md:max-w-[1400px]">
           <div className="my-4 md:pt-52">
-            <h2 className="text-center text-[#FDDA0D] text-2xl font-semibold mb-4 uppercase tracking-widest">
+            <h2 className="smallest:text-center text-[#FDDA0D] smallest:text-lg md:text-2xl font-semibold mb-4 uppercase tracking-widest">
               Development
             </h2>
-            <p className="text-md tracking-widest">
+            <p className="smallest:text-xs tracking-widest smallest:text-center md:text-md md:text-left">
               I develop custom websites tailored to each client&#39;s goals,
               turning Figma designs into interactive interfaces and creating
               bespoke themes to match their vision.

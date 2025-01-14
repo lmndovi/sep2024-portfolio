@@ -56,6 +56,26 @@ const config: Config = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      screens: {
+        galaxyS9: "320px", // Galaxy S9+
+        galaxyZF5: "344px", // Galaxy Z Fold 5
+        blackBerryZ30: "360px", // BlackBerry Z30
+        iphoneSE: "375px", // iPhone SE
+        iphone12Pro: "390px", // iPhone 12 Pro
+        pixel7: "412px", // Pixel 7
+        iphone678XR: "414px", // iPhone 6/7/8 Plus/XR
+        iphone14Pro: "430px", // iPhone 14 Pro Max
+        surfaceDuo: "540px", // Surface Duo
+        blackBerryPlayBook: "600px", // BlackBerry PlayBook
+        galaxyTabS4: "712px", // Galaxy Tab S4
+        ipadMini: "768px", // iPad Mini
+        ipadAir: "820px", // iPad Air
+        asusZBF: "853px", // Asus Zenbook Fold
+        surfacePro7: "912px", // Surface Pro 7
+        nestHub: "1024px", // Nest Hub
+        ipadPro: "1024px", // iPad Pro
+        nestHubMax: "1280px", // Nest Hub Max
+      },
     },
   },
   plugins: [require("tailwindcss-animate"), require("tailwindcss-motion")],
