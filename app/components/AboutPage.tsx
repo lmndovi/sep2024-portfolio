@@ -7,8 +7,8 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <div className="flex flex-col items-center w-full h-screen space-y-5 mb-0 md:mb-0">
-      <h1 className="text-2xl font-semibold tracking-[5px] text-center my-16 border-8 border-white w-48 mx-auto uppercase px-6 py-3 galaxyS9:my-6 galaxyZF5:my-12">
+    <div className="flex flex-col items-center w-full h-screen space-y-5 mb-0 md:mb-0 blackBerryZ30:space-y-0">
+      <h1 className="text-2xl font-semibold tracking-[5px] text-center my-16 border-8 border-white w-48 mx-auto uppercase px-6 py-3 galaxyS9:my-6 galaxyZF5:my-12 blackBerryZ30:my-8">
         About
       </h1>
       <motion.div
@@ -33,7 +33,7 @@ const AboutPage = () => {
               bespoke themes to match their vision.
             </p>
           </div>
-          <div className="md:hidden">
+          <div className="md:hidden mx-auto blackBerryZ30:h-60">
             <Image
               src={profilePic}
               alt="mobile profile picture"

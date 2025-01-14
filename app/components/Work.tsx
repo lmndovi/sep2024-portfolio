@@ -21,7 +21,7 @@ const Work = () => {
 
   return (
     <div className="flex flex-col space-y-5 w-full h-screen">
-      <h1 className="text-2xl font-semibold tracking-[5px] text-center my-16 border-8 border-black w-48 mx-auto uppercase px-6 py-3 galaxyS9:my-8">
+      <h1 className="text-2xl font-semibold tracking-[5px] text-center my-16 border-8 border-black w-48 mx-auto uppercase px-6 py-3 galaxyS9:my-8 blackBerryZ30:my-8">
         Work
       </h1>
 
@@ -115,11 +115,11 @@ const Work = () => {
               seamless shopping experience.
               <br />
               <br />
-              <span className="galaxyS9:hidden galaxyZF5:block">
+              <span className="galaxyS9:hidden galaxyZF5:block blackBerryZ30:hidden">
                 Interactive features include:
               </span>
             </p>
-            <ul className="text-sm tracking-wide md:px-12 list-disc list-inside space-y-1 galaxyS9:hidden galaxyZF5:block">
+            <ul className="text-sm tracking-wide md:px-12 list-disc list-inside space-y-1 galaxyS9:hidden galaxyZF5:block blackBerryZ30:hidden">
               <li>
                 <strong>
                   Variant selectors, quantity controls, and image carousels

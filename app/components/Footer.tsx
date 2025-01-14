@@ -13,7 +13,7 @@ const footerLinkStyle = cva(
 
 const Footer = () => {
   return (
-    <footer className="bg-black px-5 py-10 w-screen">
+    <footer className="bg-black px-5 py-10 w-screen blackBerryZ30:py-2">
       <div className="flex flex-col md:flex-row space-y-6 justify-between items-center max-w-6xl mx-auto">
         <div className="galaxyS9:hidden md:block">
           <p className="text-lg text-[#D7D7D7] galaxyS9:text-sm">
