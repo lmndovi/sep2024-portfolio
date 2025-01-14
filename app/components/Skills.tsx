@@ -74,9 +74,9 @@ const Skills = () => {
             <Image
               src={skill.icon}
               alt={`${skill.name} icon`}
-              className="object-contain mb-2 w-10 md:w-12 opacity-60 galaxyS9:w-6 blackBerryPlayBook:w-12"
+              className="object-contain mb-2 w-10 md:w-12 opacity-60 galaxyS9:w-6 blackBerryPlayBook:w-12 galaxyTabS4:w-16"
             />
-            <p className="text-sm mt-2 tracking-wider uppercase galaxyS9:text-xs">
+            <p className="text-sm mt-2 tracking-wider uppercase galaxyS9:text-xs galaxyTabS4:text-base">
               {skill.name}
             </p>
           </div>
@@ -124,9 +124,15 @@ const Skills = () => {
 
         {/* Static layout for smaller screens */}
         <div className="block md:hidden">
-          {renderSkills(designSkills, "Design")}
-          {renderSkills(languageSkills, "Languages")}
-          {renderSkills(additionalSkills, "Tools")}
+          <div className="flex items-start">
+            {renderSkills(designSkills, "Design")}
+          </div>
+          <div className="flex items-start">
+            {renderSkills(languageSkills, "Languages")}
+          </div>
+          <div className="flex items-start">
+            {renderSkills(additionalSkills, "Tools")}
+          </div>
         </div>
       </div>
     </div>
