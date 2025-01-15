@@ -72,9 +72,9 @@ const config: Config = {
         ipadAir: "820px", // iPad Air
         asusZBF: "853px", // Asus Zenbook Fold
         surfacePro7: "912px", // Surface Pro 7
-        nestHub: "1024px", // Nest Hub
         ipadPro: "1024px", // iPad Pro
         nestHubMax: "1280px", // Nest Hub Max
+        asusVB: "1660px", //Asus VivoBook
       },
     },
   },

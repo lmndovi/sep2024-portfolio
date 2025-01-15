@@ -98,7 +98,7 @@ const Work = () => {
               <Image
                 src={ggsmockup}
                 alt="ggsauthentic.com"
-                className="h-full md:h-96 w-full md:w-screen"
+                className="h-full md:h-96 w-full md:w-screen asusVB:w-[650px]"
               />
             </Link>
           </motion.div>
