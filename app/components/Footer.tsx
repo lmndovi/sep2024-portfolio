@@ -13,15 +13,15 @@ const footerLinkStyle = cva(
 
 const Footer = () => {
   return (
-    <footer className="bg-black px-5 py-10 w-screen blackBerryZ30:py-2 ipadAir:pb-10">
-      <div className="flex flex-col asusZBF:flex-row space-y-6 justify-between items-center max-w-6xl mx-auto ipadAir:space-y-10">
-        <div className="galaxyS9:hidden asusZBF:block">
+    <footer className="bg-black px-5 py-10 w-screen blackBerryZ30:py-2 asusZBF:pb-10">
+      <div className="flex flex-col surfacePro7:flex-row space-y-6 justify-between items-center max-w-6xl mx-auto asusZBF:space-y-12">
+        <div className="galaxyS9:hidden surfacePro7:block">
           <p className="text-lg text-[#D7D7D7] galaxyS9:text-sm">
             © 2024 Developed & designed by Lu Ndovi.
           </p>
         </div>
         <nav>
-          <ul className="flex flex-col asusZBF:flex-row items-center justify-center asusZBF:space-x-4 asusZBF:space-y-0 space-y-2 ipadAir:text-xl">
+          <ul className="flex flex-col surfacePro7:flex-row items-center justify-center surfacePro7:space-x-4 surfacePro7:space-y-0 space-y-2 ipadAir:text-xl asusZBF:text-2xl">
             <li>
               <Link href="/" className={footerLinkStyle()}>
                 Home
@@ -59,7 +59,7 @@ const Footer = () => {
             <Image
               src={GitHubIcon}
               alt="Twitter"
-              className="transition-transform transform group-hover:scale-110 group-hover:filter group-hover:brightness-125"
+              className="transition-transform transform group-hover:scale-110 group-hover:filter group-hover:brightness-125 asusZBF:w-10"
             />
           </Link>
           <Link
@@ -71,11 +71,11 @@ const Footer = () => {
             <Image
               src={LinkedIn}
               alt="Twitter"
-              className="transition-transform transform group-hover:scale-110 group-hover:filter group-hover:brightness-125"
+              className="transition-transform transform group-hover:scale-110 group-hover:filter group-hover:brightness-125 asusZBF:w-10"
             />
           </Link>
         </div>
-        <div className="asusZBF:hidden">
+        <div className="surfacePro7:hidden">
           <p className="text-lg text-[#D7D7D7] galaxyS9:text-sm">
             © 2024 Developed & designed by Lu Ndovi.
           </p>

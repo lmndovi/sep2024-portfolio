@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <div className="w-full">
       {/* Desktop Nav */}
-      <div className="hidden asusZBF:flex asusZBF:justify-center">
+      <div className="hidden surfacePro7:flex surfacePro7:justify-center">
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
@@ -57,15 +57,15 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Nav */}
-      <div className="asusZBF:hidden flex justify-end p-4">
+      <div className="surfacePro7:hidden flex justify-end p-4">
         {/* <MenuDrawer /> */}
         <Menu>
-          <MenuButton className="inline-flex items-center gap-2 rounded-md bg-gray-800 py-1.5 px-3 text-sm/6 font-semibold text-white shadow-inner shadow-white/10 focus:outline-none data-[hover]:bg-gray-700 data-[open]:bg-gray-700 data-[focus]:outline-1 data-[focus]:outline-white ipadAir:text-xl">
+          <MenuButton className="inline-flex items-center gap-2 rounded-md bg-gray-800 py-1.5 px-3 text-sm/6 font-semibold text-white shadow-inner shadow-white/10 focus:outline-none data-[hover]:bg-gray-700 data-[open]:bg-gray-700 data-[focus]:outline-1 data-[focus]:outline-white asusZBF:text-xl">
             Menu
           </MenuButton>
           <MenuItems
             anchor="bottom end"
-            className="w-52 origin-top-right rounded-xl border border-white/5 bg-white/5 p-1 text-sm/6 text-white transition duration-100 ease-out [--anchor-gap:var(--spacing-1)] focus:outline-none data-[closed]:scale-95 data-[closed]:opacity-0 ipadAir:text-lg"
+            className="w-52 origin-top-right rounded-xl border border-white/5 bg-white/5 p-1 text-sm/6 text-white transition duration-100 ease-out [--anchor-gap:var(--spacing-1)] focus:outline-none data-[closed]:scale-95 data-[closed]:opacity-0 asusZBF:text-lg"
           >
             <MenuItem>
               <a className="block data-[focus]:bg-blue-100" href="#about">

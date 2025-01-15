@@ -27,7 +27,7 @@ const Work = () => {
 
       <main className="grid grid-cols-1 mx-auto px-20">
         {/* Animation for larger screens */}
-        <div className="hidden asusZBF:grid asusZBF:grid-cols-2 asusZBF:gap-2">
+        <div className="hidden surfacePro7:grid surfacePro7:grid-cols-2 surfacePro7:gap-2">
           <motion.div
             id="workText"
             initial="hidden"
@@ -105,7 +105,7 @@ const Work = () => {
         </div>
 
         {/* Static layout for smaller screens */}
-        <div className="block asusZBF:hidden space-y-16">
+        <div className="block surfacePro7:hidden space-y-16">
           <div
             id="workText"
             className="space-y-6 galaxyS9:space-y-4 blackBerryPlayBook:space-y-6"
@@ -157,7 +157,7 @@ const Work = () => {
               <Image
                 src={ggsmockup}
                 alt="ggsauthentic.com"
-                className="mx-auto h-full ipadAir:h-96 w-full ipadAir:w-full surfaceDuo:w-72 blackBerryPlayBook:w-96 ipadMini:w-[500px]"
+                className="mx-auto h-full ipadAir:h-96 w-full ipadAir:w-full surfaceDuo:w-72 blackBerryPlayBook:w-96 ipadMini:w-[500px] asusZBF:w-[550px]"
               />
             </Link>
           </div>
