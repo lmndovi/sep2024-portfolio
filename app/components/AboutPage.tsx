@@ -22,8 +22,8 @@ const AboutPage = () => {
         viewport={{ once: true }}
         className="flex items-center justify-center "
       >
-        <main className="grid grid-cols-1 ipadAir:grid-cols-3 gap-10 w-full px-16 ipadAir:max-w-[1400px] ipadMini:max-w-[700px]">
-          <div className="my-4 ipadAir:pt-52">
+        <main className="grid grid-cols-1 asusZBF:grid-cols-3 gap-10 w-full px-16 asusZBF:max-w-[1400px] ipadAir:max-w-[700px]">
+          <div className="my-10 asusZBF:pt-52">
             <h2 className=" text-[#FDDA0D] md:text-2xl font-semibold mb-4 uppercase tracking-widest galaxyS9:text-center galaxyS9:text-lg blackBerryPlayBook:text-2xl">
               Development
             </h2>
@@ -53,7 +53,7 @@ const AboutPage = () => {
             </p>
           </div>
 
-          <div className="my-4 ipadAir:pt-52 hidden md:block">
+          <div className="my-4 asusZBF:pt-52 hidden md:block">
             <h2 className=" text-center text-[#FDDA0D] text-2xl font-semibold mb-4 uppercase tracking-widest">
               Design
             </h2>

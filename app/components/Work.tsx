@@ -27,7 +27,7 @@ const Work = () => {
 
       <main className="grid grid-cols-1 mx-auto px-20">
         {/* Animation for larger screens */}
-        <div className="hidden ipadAir:grid ipadAir:grid-cols-2 ipadAir:gap-2">
+        <div className="hidden asusZBF:grid asusZBF:grid-cols-2 asusZBF:gap-2">
           <motion.div
             id="workText"
             initial="hidden"
@@ -105,7 +105,7 @@ const Work = () => {
         </div>
 
         {/* Static layout for smaller screens */}
-        <div className="block ipadAir:hidden space-y-16">
+        <div className="block asusZBF:hidden space-y-16">
           <div
             id="workText"
             className="space-y-6 galaxyS9:space-y-4 blackBerryPlayBook:space-y-6"

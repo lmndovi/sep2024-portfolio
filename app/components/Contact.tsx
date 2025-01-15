@@ -135,7 +135,7 @@ const Contact = () => {
         <div className="flex justify-center">
           <Button
             type="submit"
-            className=" md:py-5 md:px-10 rounded-md bg-[#d7d7d7] text-black font-bold md:text-md cursor-pointer hover:bg-[#FDDA0D] galaxyS9:text-sm galaxyS9:py-2 galaxyS9:px-5 blackBerryPlayBook:px-10 blackBerryPlayBook:py-6 blackBerryPlayBook:text-lg"
+            className=" md:py-5 md:px-10 rounded-md bg-[#d7d7d7] text-black font-bold md:text-md cursor-pointer hover:bg-[#FDDA0D] galaxyS9:text-sm galaxyS9:py-2 galaxyS9:px-5 blackBerryPlayBook:px-10 blackBerryPlayBook:py-6 blackBerryPlayBook:text-lg ipadAir:py-6 ipadAir:px-12 ipadAir:text-lg"
           >
             Submit
           </Button>
