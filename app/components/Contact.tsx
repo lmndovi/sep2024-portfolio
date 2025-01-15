@@ -73,7 +73,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex flex-col space-y-5 w-full h-screen">
+    <div className="flex flex-col space-y-5 w-full h-screen myDesktop:mb-10">
       <h1 className="text-2xl font-semibold tracking-[5px] text-center my-16 border-8 border-white w-48 mx-auto uppercase px-6 py-3 galaxyS9:my-8 galaxyZF5:my-12 blackBerryZ30:my-8 blackBerryPlayBook:my-16">
         Contact
       </h1>

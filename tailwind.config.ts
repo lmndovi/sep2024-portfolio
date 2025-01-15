@@ -76,6 +76,7 @@ const config: Config = {
         nestHubMax: "1280px", // Nest Hub Max
         asusVB: "1660px", //Asus VivoBook
         "1920by1080": "1920px", //1920 x 1080
+        myDesktop: "1285px", //My Laptop 1285.60px x 729.60px
       },
     },
   },
