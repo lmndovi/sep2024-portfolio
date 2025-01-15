@@ -27,7 +27,7 @@ const Work = () => {
 
       <main className="grid grid-cols-1 mx-auto px-20">
         {/* Animation for larger screens */}
-        <div className="hidden surfacePro7:grid surfacePro7:grid-cols-2 surfacePro7:gap-2">
+        <div className="hidden nestHubMax:grid nestHubMax:grid-cols-2 nestHubMax:gap-2">
           <motion.div
             id="workText"
             initial="hidden"
@@ -105,7 +105,7 @@ const Work = () => {
         </div>
 
         {/* Static layout for smaller screens */}
-        <div className="block surfacePro7:hidden space-y-16">
+        <div className="block nestHubMax:hidden space-y-16">
           <div
             id="workText"
             className="space-y-6 galaxyS9:space-y-4 blackBerryPlayBook:space-y-6"
@@ -135,6 +135,19 @@ const Work = () => {
                 <strong>Algorithm-based recommendations</strong>
               </li>
             </ul>
+            <div className="hidden ipadPro:block">
+              <p className="text-sm tracking-wide md:px-10 mt-4">
+                Custom dropdowns, a hover-activated menu, and a mobile-friendly
+                hamburger menu enable easy navigation, while advanced search,
+                filters, and secure payment ensure smooth transactions.
+              </p>
+              <p className="text-sm tracking-wide md:px-10 mt-4">
+                Marketing integrations like JudgeMe and Shopify Email, plus a
+                discount opt-in form, boost engagement. Custom visuals and
+                initial review data enhance the platform, creating a
+                user-focused shopping experience.
+              </p>
+            </div>
 
             <div className="flex flex-col items-center justify-center py-3 galaxyS9:py-0 galaxyZF5:py-3">
               <Link
@@ -157,7 +170,7 @@ const Work = () => {
               <Image
                 src={ggsmockup}
                 alt="ggsauthentic.com"
-                className="mx-auto h-full ipadAir:h-96 w-full ipadAir:w-full surfaceDuo:w-72 blackBerryPlayBook:w-96 ipadMini:w-[500px] asusZBF:w-[550px]"
+                className="mx-auto h-full ipadAir:h-96 w-full ipadAir:w-full surfaceDuo:w-72 blackBerryPlayBook:w-96 ipadMini:w-[500px] asusZBF:w-[550px] ipadPro:w-[600px]"
               />
             </Link>
           </div>

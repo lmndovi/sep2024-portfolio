@@ -13,15 +13,15 @@ const footerLinkStyle = cva(
 
 const Footer = () => {
   return (
-    <footer className="bg-black px-5 py-10 w-screen blackBerryZ30:py-2 asusZBF:pb-10">
-      <div className="flex flex-col surfacePro7:flex-row space-y-6 justify-between items-center max-w-6xl mx-auto asusZBF:space-y-12">
-        <div className="galaxyS9:hidden surfacePro7:block">
+    <footer className="bg-black px-5 py-10 w-screen blackBerryZ30:py-2 ipadPro:pb-10">
+      <div className="flex flex-col nestHubMax:flex-row space-y-6 justify-between items-center max-w-6xl mx-auto ipadPro:space-y-12">
+        <div className="galaxyS9:hidden nestHubMax:flex nestHubMax:items-center nestHubMax:justify-center nestHubMax:h-full ">
           <p className="text-lg text-[#D7D7D7] galaxyS9:text-sm">
             © 2024 Developed & designed by Lu Ndovi.
           </p>
         </div>
         <nav>
-          <ul className="flex flex-col surfacePro7:flex-row items-center justify-center surfacePro7:space-x-4 surfacePro7:space-y-0 space-y-2 ipadAir:text-xl asusZBF:text-2xl">
+          <ul className="flex flex-col nestHubMax:flex-row items-center justify-center ipadPro:space-x-4 nestHubMax:space-y-0 space-y-2 ipadAir:text-xl asusZBF:text-2xl ipadPro:text-4xl nestHubMax:text-2xl">
             <li>
               <Link href="/" className={footerLinkStyle()}>
                 Home
@@ -75,7 +75,7 @@ const Footer = () => {
             />
           </Link>
         </div>
-        <div className="surfacePro7:hidden">
+        <div className="nestHubMax:hidden">
           <p className="text-lg text-[#D7D7D7] galaxyS9:text-sm">
             © 2024 Developed & designed by Lu Ndovi.
           </p>

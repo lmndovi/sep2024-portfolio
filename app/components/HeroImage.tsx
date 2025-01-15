@@ -9,7 +9,7 @@ const HeroImage = () => {
       <Image
         src={hero}
         alt="Lu Ndovi"
-        className="md:h-[646px] md:w-[450px] lg:h-[648px] lg:w-[500px] xl:h-[654px]"
+        className="md:h-[646px] md:w-[450px] lg:h-[648px] lg:w-[500px]  nestHubMax:h-[664px]"
         priority // Ensures the image loads quickly as it's in the viewport
       />
     </div>

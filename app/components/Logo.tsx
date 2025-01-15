@@ -6,7 +6,13 @@ const Logo = () => {
   return (
     <div>
       <Link href="/">
-        <Image src="./assets/icon.svg" alt="Logo" height={30} width={30} />
+        <Image
+          src="./assets/icon.svg"
+          alt="Logo"
+          height={30}
+          width={30}
+          className="ipadPro:w-10"
+        />
       </Link>
     </div>
   );

@@ -22,9 +22,9 @@ const AboutPage = () => {
         viewport={{ once: true }}
         className="flex items-center justify-center "
       >
-        <main className="grid grid-cols-1 surfacePro7:grid-cols-3 gap-10 w-full px-16 surfacePro7:max-w-[1400px] asusZBF:max-w-[700px]">
-          <div className="my-10 surfacePro7:pt-52">
-            <h2 className=" text-[#FDDA0D] md:text-2xl font-semibold mb-4 uppercase tracking-widest galaxyS9:text-center galaxyS9:text-lg blackBerryPlayBook:text-2xl">
+        <main className="grid grid-cols-1 nestHubMax:grid-cols-3 gap-10 w-full px-16 nestHubMax:max-w-[1400px] ipadPro:max-w-[700px]">
+          <div className="my-10 nestHubMax:pt-52">
+            <h2 className=" text-[#FDDA0D] md:text-2xl font-semibold mb-4 uppercase tracking-widest galaxyS9:text-center galaxyS9:text-lg blackBerryPlayBook:text-2xl ipadPro:text-3xl">
               Development
             </h2>
             <p className=" tracking-widest md:text-md md:text-left galaxyS9:text-xs galaxyS9:text-center blackBerryPlayBook:text-lg">
@@ -42,7 +42,7 @@ const AboutPage = () => {
           </div>
 
           <div className="my-4 hidden md:block">
-            <h2 className="text-2xl text-[#FDDA0D] text-center font-semibold mb-4 uppercase tracking-widest">
+            <h2 className="text-2xl text-[#FDDA0D] text-center font-semibold mb-4 uppercase tracking-widest ipadPro:text-3xl">
               My Story
             </h2>
             <p className="text-md tracking-widest ipadMini:text-lg">
@@ -53,8 +53,8 @@ const AboutPage = () => {
             </p>
           </div>
 
-          <div className="my-4 surfacePro7:pt-52 hidden md:block">
-            <h2 className=" text-center text-[#FDDA0D] text-2xl font-semibold mb-4 uppercase tracking-widest">
+          <div className="my-4 nestHubMax:pt-52 hidden md:block">
+            <h2 className=" text-center text-[#FDDA0D] text-2xl font-semibold mb-4 uppercase tracking-widest ipadPro:text-3xl">
               Design
             </h2>
             <p className="text-md tracking-widest ipadMini:text-lg">
