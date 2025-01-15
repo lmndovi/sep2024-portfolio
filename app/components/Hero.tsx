@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="grid grid-cols-1 nestHubMax:grid-cols-2 ">
       <div
         id="heroText"
-        className="flex flex-col h-96 nestHubMax:h-full justify-center items-center blackBerryPlayBook:h-[600px] galaxyTabS4:h-[700px] "
+        className="flex flex-col h-96 nestHubMax:h-full justify-center items-center blackBerryPlayBook:h-[600px] galaxyTabS4:h-[700px] myDesktop:h-[500px]"
       >
         <HeroText />
       </div>
