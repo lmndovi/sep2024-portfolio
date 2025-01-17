@@ -24,10 +24,8 @@ const HeroText = () => {
   });
 
   return (
-    <div
-      className={`${roboto.className} flex h-full items-center justify-center`}
-    >
-      <h1 className="text-center nestHubMax:max-w-[440px] text-5xl md:text-7xl mr-12 font-bold galaxyS9:max-w-[200px] galaxyS9:text-4xl blackBerryPlayBook:text-6xl blackBerryPlayBook:max-w-[330px]">
+    <div className={`${roboto.className} h-1/2`}>
+      <h1 className="h-full  text-center nestHubMax:max-w-[440px] text-5xl md:text-7xl mr-12 font-bold galaxyS9:max-w-[200px] galaxyS9:text-4xl blackBerryPlayBook:text-6xl blackBerryPlayBook:max-w-[330px]">
         <span>{text}</span>
         <Cursor cursorColor="yellow" />
       </h1>
