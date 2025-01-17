@@ -4,15 +4,15 @@ import HeroText from "./HeroText";
 
 const Hero = () => {
   return (
-    <div className="relative grid grid-cols-1 nestHubMax:grid-cols-2 h-screen">
+    <div className="relative grid grid-cols-1  h-full nestHubMax:grid-cols-2 nestHubMax:h-full">
       <div
         id="heroText"
-        className="flex flex-col h-96 nestHubMax:h-full justify-center items-center blackBerryPlayBook:h-[600px] galaxyTabS4:h-[700px] myDesktop:h-[500px]"
+        className="flex flex-col h-full justify-center items-center "
       >
         <HeroText />
       </div>
       <div
-        className="motion motion-preset-slide-left motion-delay-[700ms] motion-ease-spring-bouncier relative"
+        className="motion motion-preset-slide-left motion-delay-[700ms] motion-ease-spring-bouncier relative hidden nestHubMax:flex nestHubMax:h-full"
         id="heroImage"
       >
         <HeroImage />

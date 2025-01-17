@@ -5,12 +5,11 @@ import React from "react";
 
 const HeroImage = () => {
   return (
-    <div className="absolute bottom-0 w-full justify-center hidden nestHubMax:flex">
+    <div className="absolute bottom-0  right-0 h-full">
       <Image
         src={hero}
         alt="Lu Ndovi"
-        className="h-auto object-cover 
-       max-w-full nestHubMax:max-w-[60%] 2xl:max-w-[60%]"
+        className="h-full w-full object cover"
         priority // Ensures the image loads quickly as it's in the viewport
       />
     </div>

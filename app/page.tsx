@@ -8,12 +8,12 @@ import Contact from "./components/Contact";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen bg-[#D7D7D7]">
-      <div className="landing h-screen overflow-hidden flex-1">
+    <div className="flex flex-col bg-[#D7D7D7]">
+      <div className="landing h-screen overflow-hidden">
         <header id="header">
           <Header />
         </header>
-        <main className=" text-white" id="hero">
+        <main className="h-full text-white" id="hero">
           <Hero />
         </main>
       </div>
