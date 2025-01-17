@@ -5,11 +5,12 @@ import React from "react";
 
 const HeroImage = () => {
   return (
-    <div>
+    <div className="absolute bottom-0 w-full justify-center hidden nestHubMax:flex">
       <Image
         src={hero}
         alt="Lu Ndovi"
-        className="md:h-[646px] md:w-[450px] lg:h-[648px] lg:w-[500px]  nestHubMax:h-[664px] asusVB:h-[721.5px] 1920by1080:h-[943px] 1920by1080:w-[640px] myDesktop:h-[594px] myDesktop:w-[480px]"
+        className="h-auto object-cover 
+       max-w-full nestHubMax:max-w-[60%] 2xl:max-w-[60%]"
         priority // Ensures the image loads quickly as it's in the viewport
       />
     </div>

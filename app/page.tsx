@@ -9,16 +9,16 @@ import Contact from "./components/Contact";
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-[#D7D7D7]">
-      <div className="landing">
+      <div className="landing h-screen overflow-hidden flex-1">
         <header id="header">
           <Header />
         </header>
-        <main className="text-white h-full flex-1" id="hero">
+        <main className=" text-white" id="hero">
           <Hero />
         </main>
       </div>
       <section
-        className="h-screen flex-1  bg-black text-white w-screen"
+        className="h-screen flex-1  bg-black text-white w-screen overflow-hidden"
         id="about"
       >
         <AboutPage />
