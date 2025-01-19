@@ -28,9 +28,9 @@ const AboutPage = () => {
               Development
             </h2>
             <p className=" tracking-widest md:text-md md:text-left galaxyS9:text-xs galaxyS9:text-center blackBerryPlayBook:text-lg">
-              I develop custom websites tailored to each client&#39;s goals,
-              turning Figma designs into interactive interfaces and creating
-              bespoke themes to match their vision.
+              As a full-stack developer from London, I thrive on transforming
+              clients&#39; passion projects into engaging and accessible digital
+              experiences.
             </p>
           </div>
           <div className="md:hidden mx-auto blackBerryZ30:h-60 iphone12Pro:h-full surfaceDuo:h-80 blackBerryPlayBook:h-96 galaxyTabS4:h-[600px]">
@@ -43,24 +43,23 @@ const AboutPage = () => {
 
           <div className="my-4 hidden md:block">
             <h2 className="text-2xl text-[#FDDA0D] text-center font-semibold mb-4 uppercase tracking-widest ipadPro:text-3xl">
-              My Story
+              Journey
             </h2>
             <p className="text-md tracking-widest ipadMini:text-lg">
-              During the pandemic, I discovered a passion for coding that led to
-              a career shift. I delved into Python, JavaScript, TypeScript, and
-              Shopify Liquid, transforming my curiosity into a professional
-              path.
+              After taking a career break post-university to pursue a career in
+              football, I decided to teach myself how to code during the
+              pandemic (because why not?!).
             </p>
           </div>
 
           <div className="my-4 nestHubMax:pt-52 hidden md:block">
             <h2 className=" text-center text-[#FDDA0D] text-2xl font-semibold mb-4 uppercase tracking-widest ipadPro:text-3xl">
-              Design
+              Interests
             </h2>
             <p className="text-md tracking-widest ipadMini:text-lg">
-              I design websites that reflect clients&#39; brands, blending
-              aesthetics with functionality to enhance their image and user
-              experience, aligning with their goals and values.
+              When not coding, you&#39;ll find me salsa dancing, meditating, or
+              experimenting in the kitchen. I&#39;m also a (struggling) plant
+              dad, wannabe fashionista and history nerd.
             </p>
           </div>
         </main>
