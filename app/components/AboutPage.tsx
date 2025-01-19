@@ -46,7 +46,7 @@ const AboutPage = () => {
               Journey
             </h2>
             <p className="text-md tracking-widest ipadMini:text-lg">
-              After taking a career break post-university to pursue a career in
+              After taking a break post-university to pursue a career in
               football, I decided to teach myself how to code during the
               pandemic (because why not?!).
             </p>
