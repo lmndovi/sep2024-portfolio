@@ -2,11 +2,17 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 import { Roboto } from "next/font/google";
+import { Open_Sans } from "next/font/google";
 
 // Import Roboto font from Google Fonts
 const roboto = Roboto({
   subsets: ["latin"],
   weight: ["100", "300", "400", "500", "700", "900"],
+});
+
+const openSans = Open_Sans({
+  subsets: ["latin"],
+  weight: ["300", "400", "700", "800"],
 });
 
 export const metadata: Metadata = {
@@ -36,7 +42,7 @@ export default function RootLayout({
           media="(min-width: 0)"
         />
       </head>
-      <body className={`${roboto.className} antialiased`}>{children}</body>
+      <body className={`${openSans.className} antialiased`}>{children}</body>
     </html>
   );
 }

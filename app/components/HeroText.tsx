@@ -1,11 +1,23 @@
 "use client";
 
 import { Roboto } from "next/font/google";
+import { Jersey_15 } from "next/font/google";
+import { Source_Code_Pro } from "next/font/google";
 
 // Import Convergence font from Google Fonts
 const roboto = Roboto({
   subsets: ["latin"],
   weight: ["400", "700"],
+});
+
+const jersey15 = Jersey_15({
+  subsets: ["latin"],
+  weight: ["400"],
+});
+
+const sourceCodePro = Source_Code_Pro({
+  subsets: ["latin"],
+  weight: ["500", "800"],
 });
 
 import React from "react";
@@ -14,7 +26,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 const HeroText = () => {
   const [text] = useTypewriter({
     words: [
-      "Hello, I am Lu Ndovi",
+      "Hello, I am\nLu Ndovi",
       "Athlete.tsx, PlantDad.tsx, SalsaDancer.tsx",
       "<But-Mainly-Just-A-Programmer/>",
     ],
@@ -24,8 +36,8 @@ const HeroText = () => {
   });
 
   return (
-    <div className={`${roboto.className} h-1/2`}>
-      <h1 className="h-full  text-center nestHubMax:max-w-[440px] text-5xl md:text-7xl mr-12 font-bold galaxyS9:max-w-[200px] galaxyS9:text-4xl blackBerryPlayBook:text-6xl blackBerryPlayBook:max-w-[330px]">
+    <div className={`${sourceCodePro.className} h-1/2`}>
+      <h1 className="h-full text-center nestHubMax:max-w-[540px] text-5xl md:text-6xl mr-12 font-bold galaxyS9:max-w-[200px] galaxyS9:text-4xl blackBerryPlayBook:text-6xl blackBerryPlayBook:max-w-[330px] tracking-wider">
         <span>{text}</span>
         <Cursor cursorColor="yellow" />
       </h1>
