@@ -1,7 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
 import profilePic from "@/app/assets/githubPortfolio.jpg";
-import GBFlag from "@/app/assets/GB.svg";
 import Image from "next/image";
 
 import React from "react";

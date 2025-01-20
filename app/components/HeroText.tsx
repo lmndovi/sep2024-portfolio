@@ -1,19 +1,6 @@
 "use client";
 
-import { Roboto } from "next/font/google";
-import { Jersey_15 } from "next/font/google";
 import { Source_Code_Pro } from "next/font/google";
-
-// Import Convergence font from Google Fonts
-const roboto = Roboto({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-});
-
-const jersey15 = Jersey_15({
-  subsets: ["latin"],
-  weight: ["400"],
-});
 
 const sourceCodePro = Source_Code_Pro({
   subsets: ["latin"],
