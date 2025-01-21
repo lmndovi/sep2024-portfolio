@@ -24,10 +24,10 @@ const AboutPage = () => {
       >
         <main className="grid grid-cols-1 nestHubMax:grid-cols-3 gap-20 w-full px-12 nestHubMax:max-w-[1400px] ipadPro:max-w-[700px] content-center items-center">
           <div className="my-10 nestHubMax:my-4">
-            <h2 className=" text-[#FDDA0D] md:text-2xl font-semibold mb-4 uppercase tracking-widest galaxyS9:text-center galaxyS9:text-lg blackBerryPlayBook:text-2xl ipadPro:text-3xl">
+            <h2 className=" text-[#FDDA0D] md:text-2xl font-light mb-4 uppercase tracking-[6px] galaxyS9:text-center galaxyS9:text-lg blackBerryPlayBook:text-2xl ipadPro:text-3xl">
               Development
             </h2>
-            <p className=" tracking-widest md:text-md md:text-left galaxyS9:text-xs galaxyS9:text-center blackBerryPlayBook:text-lg nestHubMax:text-xl nestHubMax:font-light ">
+            <p className=" tracking-widest md:text-md md:text-left galaxyS9:text-xs galaxyS9:text-center blackBerryPlayBook:text-lg nestHubMax:text-xl nestHubMax:font-normal nestHubMax:text-justify">
               As a full-stack developer from London, I thrive on transforming
               clients&#39; passion projects into engaging and accessible digital
               experiences.
@@ -42,21 +42,21 @@ const AboutPage = () => {
           </div>
 
           <div className="my-4 hidden md:block">
-            <h2 className="text-2xl text-[#FDDA0D] text-center font-semibold mb-4 uppercase tracking-widest ipadPro:text-3xl">
+            <h2 className="text-2xl text-[#FDDA0D] text-center font-light mb-4 uppercase tracking-[6px] ipadPro:text-3xl">
               Journey
             </h2>
-            <p className="text-md tracking-widest ipadMini:text-lg nestHubMax:text-xl nestHubMax:font-light">
+            <p className="text-md tracking-widest ipadMini:text-lg nestHubMax:text-xl nestHubMax:font-normal nestHubMax:text-justify">
               After taking a break post-university to pursue a career in
               football, I decided to teach myself how to code during the
               pandemic (because why not?!).
             </p>
           </div>
 
-          <div className="my-4  hidden md:block">
-            <h2 className=" text-center text-[#FDDA0D] text-2xl font-semibold mb-4 uppercase tracking-widest ipadPro:text-3xl">
+          <div className="my-4 hidden md:block">
+            <h2 className=" text-center text-[#FDDA0D] text-2xl font-light mb-4 uppercase tracking-[6px] ipadPro:text-3xl">
               Interests
             </h2>
-            <p className="text-md tracking-widest ipadMini:text-lg nestHubMax:text-xl nestHubMax:font-light">
+            <p className="text-md tracking-widest ipadMini:text-lg nestHubMax:text-xl nestHubMax:font-normal nestHubMax:text-justify">
               When not coding, you&#39;ll find me salsa dancing, meditating, or
               experimenting in the kitchen. I&#39;m also a (struggling) plant
               dad, wannabe fashionista and history nerd.

@@ -40,36 +40,32 @@ const Work = () => {
                 GG&#39;s Authentic Site
               </h2>
               <p className="text-sm tracking-wide md:px-10">
-                An e-commerce website designed for a seamless shopping
-                experience.
-                <br />
-                <br />
-                Interactive features include:
+                Designed an e-commerce website that boosted user engagement and
+                generated measurable results for the client.
               </p>
+              <ul className="text-sm tracking-wide md:px-12 list-disc list-inside space-y-2">
+                <li>
+                  <strong>
+                    Sessions that reached checkout up increased by 433%
+                  </strong>
+                </li>
+                <li>
+                  <strong>
+                    Several new orders, generating revenue of £134.80
+                  </strong>
+                </li>
+              </ul>
               <ul className="text-sm tracking-wide md:px-12 list-disc list-inside space-y-1">
+                <p className="my-4">Interactive Elements include:</p>
                 <li>
                   <strong>
                     Variant selectors, quantity controls, and image carousels
                   </strong>
                 </li>
                 <li>
-                  <strong>Expandable Details</strong>
-                </li>
-                <li>
                   <strong>Algorithm-based recommendations</strong>
                 </li>
               </ul>
-              <p className="text-sm tracking-wide md:px-10 mt-4">
-                Custom dropdowns, a hover-activated menu, and a mobile-friendly
-                hamburger menu enable easy navigation, while advanced search,
-                filters, and secure payment ensure smooth transactions.
-              </p>
-              <p className="text-sm tracking-wide md:px-10 mt-4">
-                Marketing integrations like JudgeMe and Shopify Email, plus a
-                discount opt-in form, boost engagement. Custom visuals and
-                initial review data enhance the platform, creating a
-                user-focused shopping experience.
-              </p>
               <div className="flex flex-col items-center justify-center py-3">
                 <Link
                   href="https://ggsauthentic.com/"
