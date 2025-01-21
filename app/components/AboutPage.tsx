@@ -20,9 +20,9 @@ const AboutPage = () => {
           filter: { duration: 0.75, delay: 0.75 },
         }}
         viewport={{ once: true }}
-        className="flex items-center justify-center "
+        className="flex items-center justify-center h-full"
       >
-        <main className="grid grid-cols-1 nestHubMax:grid-cols-3 gap-20 w-full px-12 nestHubMax:max-w-[1400px] ipadPro:max-w-[700px] content-center items-center">
+        <main className="grid grid-cols-1 nestHubMax:grid-cols-3 gap-20 w-full px-16 nestHubMax:max-w-6xl ipadPro:max-w-[700px] content-center items-center nestHubMax:h-full">
           <div className="my-10 nestHubMax:my-4">
             <h2 className=" text-[#FDDA0D] md:text-2xl font-light mb-4 uppercase tracking-[6px] galaxyS9:text-center galaxyS9:text-lg blackBerryPlayBook:text-2xl ipadPro:text-3xl">
               Development
