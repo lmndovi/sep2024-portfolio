@@ -13,7 +13,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 const HeroText = () => {
   const [text] = useTypewriter({
     words: [
-      "Hello, I am Lu Ndovi",
+      "Hello, I am\nLu Ndovi",
       "Athlete.tsx, PlantDad.tsx, SalsaDancer.tsx",
       "<But-Mainly-Just-A-Programmer/>",
     ],
@@ -24,7 +24,7 @@ const HeroText = () => {
 
   return (
     <div className={`${sourceCodePro.className} h-1/2`}>
-      <h1 className="h-full text-center nestHubMax:max-w-[540px] text-5xl md:text-6xl mr-12 font-bold galaxyS9:max-w-[210px] galaxyS9:text-2xl blackBerryPlayBook:text-4xl blackBerryPlayBook:max-w-[300px] tracking-wider ipadPro:text-5xl ipadPro:max-w-sm">
+      <h1 className="h-full text-center nestHubMax:max-w-[540px] text-5xl md:text-6xl mr-12 font-bold galaxyS9:max-w-[200px] galaxyS9:text-4xl blackBerryPlayBook:text-6xl blackBerryPlayBook:max-w-[330px] tracking-wider">
         <span>{text}</span>
         <Cursor cursorColor="yellow" />
       </h1>
