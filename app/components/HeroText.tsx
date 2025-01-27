@@ -24,7 +24,7 @@ const HeroText = () => {
 
   return (
     <div className={`${sourceCodePro.className} h-1/2`}>
-      <h1 className="h-full text-center nestHubMax:max-w-[540px] text-5xl md:text-6xl mr-12 font-bold galaxyS9:max-w-[200px] galaxyS9:text-2xl blackBerryPlayBook:text-6xl blackBerryPlayBook:max-w-[330px] tracking-wider">
+      <h1 className="h-full text-center nestHubMax:max-w-[540px] text-5xl md:text-6xl mr-12 font-bold galaxyS9:max-w-[200px] galaxyS9:text-2xl blackBerryPlayBook:text-5xl blackBerryPlayBook:max-w-[400px] tracking-wider">
         <span>{text}</span>
         <Cursor cursorColor="yellow" />
       </h1>
