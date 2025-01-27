@@ -58,8 +58,6 @@ const Work = () => {
               <ul className="text-sm tracking-wide md:px-12 list-disc list-inside space-y-1">
                 <p className="my-4">Interactive Elements include:</p>
                 <li>
-                  <strong>Technologies:</strong>
-                  Shopify, JavaScript, HTML5, CSS3, Tailwind CSS, Figma.
                   <strong>
                     Variant selectors, quantity controls, and image carousels
                   </strong>
@@ -67,6 +65,10 @@ const Work = () => {
                 <li>
                   <strong>Algorithm-based recommendations</strong>
                 </li>
+                <p className="py-2">
+                  <strong>Technologies: </strong>
+                  Shopify API, JavaScript, HTML5, CSS3, Tailwind CSS, Figma
+                </p>
               </ul>
               <div className="flex flex-col items-center justify-center py-3">
                 <Link
